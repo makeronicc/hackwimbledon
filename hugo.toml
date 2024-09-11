@@ -1,0 +1,7 @@
+baseURL = 'https://hackwimbledon.org/'
+languageCode = 'en-uk'
+title = 'HackWimbledon'
+
+[[module.imports]]
+path = 'github.com/theNewDynamic/gohugo-theme-ananke'
+
