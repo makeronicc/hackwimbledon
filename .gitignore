@@ -1,0 +1,34 @@
+# Generated files by hugo
+public/
+resources/_gen/
+assets/jsconfig.json
+hugo_stats.json
+
+
+## OS Files
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# OSX
+.DS_Store
+
+node_modules
+dist
+tmp
+resources/_gen/
+
+hugo.exe
+hugo.linux
+hugo.darwin
+
+.vscode
+package*json
+
+# Hugo Build Lock
+/.hugo_build.lock
+
+# Local Netlify folder
+.netlify

@@ -1,0 +1,49 @@
+baseURL = 'https://hackwimbledon.org/'
+languageCode = 'en-uk'
+title = 'HackWimbledon'
+DefaultContentLanguage = "en"
+enableRobotsTXT = true
+theme = "github.com/theNewDynamic/gohugo-theme-ananke"
+pagination.pagerSize = 10
+
+[module]
+  [[module.imports]]
+    path = 'github.com/theNewDynamic/gohugo-theme-ananke'
+
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.5
+  filename = "sitemap.xml"
+
+[params]
+  background_color_class = "bg-black"
+  featured_image = "/img/hwback2.jpg"
+  site_logo = "/img/HackWimbledonLogoWhiteBack128.png"
+  show_reading_time = true
+  description = "A place to meet and make physically and digitally."
+  body_classes= "avenir bg-near-white"
+   recent_posts_number = 3
+
+[menu]
+
+  [[menu.main]]
+  name = "News"
+  url = "/news/"
+  weight = 1
+
+  [[menu.main]]
+  name = "Meetings"
+  url = "/meetings/"
+  weight = 2
+
+[[params.ananke_socials]]
+name = "github"
+url = "https://github.com/makeronicc"
+
+[[params.ananke_socials]]
+name = "mastodon"
+url = "https://mastodon.org.uk/@makeroni"
+
+[[params.ananke_socials]]
+name = "discord"
+url = "https://discord.gg/HYYXHSu"

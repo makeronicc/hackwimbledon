@@ -1,2 +1,6 @@
+github.com/spech66/bootstrap-bp-hugo-startpage v0.0.0-20240323105230-d9076e47545d h1:9kMq09nrcHDvURhPYrJ/15jixkU6Uqa15vKm3mS3/Ns=
+github.com/spech66/bootstrap-bp-hugo-startpage v0.0.0-20240323105230-d9076e47545d/go.mod h1:GG4lKiSz4+X7FzNwW1/c3+Ffa+m1DNj7T31+jPWMYMM=
+github.com/spech66/bootstrap-bp-hugo-theme v5.3.3+incompatible h1:qluqjDAwEi3LF8KkI42i+0E5KcTI+SCWI2GXXIyHxfI=
+github.com/spech66/bootstrap-bp-hugo-theme v5.3.3+incompatible/go.mod h1:ldq1c+FiYT1D8KPwx/8awM2co44PWJUb0xrHuURVCWw=
 github.com/theNewDynamic/gohugo-theme-ananke v0.0.0-20240910150237-af9d8e86fc3b h1:MZmb89CqwA83PVJDFEDf4tWkXyoTbe/dXTmQ31bnHWk=
 github.com/theNewDynamic/gohugo-theme-ananke v0.0.0-20240910150237-af9d8e86fc3b/go.mod h1:yY14BLqqh5G61rO81YcJKMHY1rClY5iIiUK+K2JKSUM=

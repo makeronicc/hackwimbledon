@@ -6,6 +6,14 @@
     <description>Recent content on HackWimbledon</description>
     <generator>Hugo</generator>
     <language>en-uk</language>
+    <lastBuildDate>Wed, 11 Sep 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Welcome to a new HackWimbledon site</title>
+      <link>http://localhost:1313/news/welcome/</link>
+      <pubDate>Wed, 11 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/news/welcome/</guid>
+      <description>&lt;p&gt;Welcome to HackWimbledon. Pardon our dust&amp;hellip; we&amp;rsquo;re having a rebuild. Pop over to &lt;a href=&#34;https://makeroni.cc/&#34;&gt;Makeroni&lt;/a&gt; for the original site. Quick explainer&amp;hellip; HackWimbledon was the original event, ten years ago, as a physical meetup.&lt;/p&gt;&#xA;&lt;p&gt;When Covid landed, we morphed into Makeroni, an online thing. And since then we&amp;rsquo;ve been bringing back HackWimbledon. Hop over to &lt;a href=&#34;http://localhost:1313/meetings&#34;&gt;Meetings&lt;/a&gt; to find out how to come along through the our Luma calendar where you can get up to date.&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>
