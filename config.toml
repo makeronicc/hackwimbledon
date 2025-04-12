@@ -3,22 +3,24 @@ languageCode = 'en-uk'
 title = 'HackWimbledon'
 DefaultContentLanguage = "en"
 enableRobotsTXT = true
-theme = "github.com/theNewDynamic/gohugo-theme-ananke"
+theme = "github.com/theNewDynamic/gohugo-theme-ananke/v2"
 pagination.pagerSize = 10
 
 [module]
   [[module.imports]]
-    path = 'github.com/theNewDynamic/gohugo-theme-ananke'
+    path = 'github.com/theNewDynamic/gohugo-theme-ananke/v2'
 
 [sitemap]
   changefreq = "monthly"
   priority = 0.5
   filename = "sitemap.xml"
 
+
+
 [params]
   background_color_class = "bg-black"
   featured_image = "/img/hwback2.jpg"
-  site_logo = "/img/HackWimbledonLogoWhiteBack128.png"
+  site_logo = "/img/HackWimbledonLogoWhiteBack64.png"
   show_reading_time = true
   description = "A place to meet and make physically and digitally."
   body_classes= "avenir bg-near-white"
@@ -36,14 +38,23 @@ pagination.pagerSize = 10
   url = "/meetings/"
   weight = 2
 
-[[params.ananke_socials]]
-name = "github"
-url = "https://github.com/makeronicc"
+[params.ananke.social.follow]
+new_window_icon = false
+networks = [
+  "github",
+  "mastodon",
+  "bluesky",
+  # "discord"
+]
 
-[[params.ananke_socials]]
-name = "mastodon"
-url = "https://mastodon.org.uk/@makeroni"
+[params.ananke.social.github]
+username="makeronicc"
 
-[[params.ananke_socials]]
-name = "discord"
-url = "https://discord.gg/HYYXHSu"
+[params.ananke.social.mastodon]
+username = "makeroni"
+
+[params.ananke.social.bluesky]
+username = "hackwimbledon"
+
+# [params.ananke.social.discord]
+# url = "https://discord.gg/HYYXHSu"

@@ -1,7 +1,6 @@
 ---
 title: Meetings at HackWimbledon
 ---
-
 So you want to meet at HackWimbledon?
 
 As a rule of thumb we meet up on the first and third Sundays of each month, but we have to be flexible depending on availability of Wimbletech's big meeting room. So it may vary, so always check in on the events calendar. 
