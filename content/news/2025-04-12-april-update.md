@@ -1,7 +1,7 @@
 ---
 title: HackWimbledon front and center
 date: 2025-04-12
-featured_image: "/img/HackWimbledon-Banner.jpeg"
+featured_image: "/img/HackWimbledon-Banner.jpg"
 draft: false
 tags:
 - hackwimbledon
