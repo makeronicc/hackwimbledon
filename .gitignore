@@ -1,5 +1,6 @@
 # Generated files by hugo
 public/
+public
 resources/_gen/
 assets/jsconfig.json
 hugo_stats.json
@@ -32,3 +33,7 @@ package*json
 
 # Local Netlify folder
 .netlify
+public/404.html
+public/index.html
+public/categories/index.html
+public/tags/index.html

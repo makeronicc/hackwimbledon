@@ -44,7 +44,7 @@ networks = [
   "github",
   "mastodon",
   "bluesky",
-  # "discord"
+  "discord"
 ]
 
 [params.ananke.social.github]
@@ -56,5 +56,10 @@ username = "makeroni"
 [params.ananke.social.bluesky]
 username = "hackwimbledon"
 
-# [params.ananke.social.discord]
-# url = "https://discord.gg/HYYXHSu"
+[params.ananke.social.networks.discord]
+profile = "https://discord.gg/%s"
+new_window_icon = false
+icon = "discord"
+
+[params.ananke.social.discord]
+username = "HYYXHSu"
