@@ -54,7 +54,7 @@ username="makeronicc"
 username = "makeroni"
 
 [params.ananke.social.bluesky]
-username = "hackwimbledon"
+username = "hackwimbledon.bsky.social"
 
 [params.ananke.social.networks.discord]
 profile = "https://discord.gg/%s"
