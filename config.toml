@@ -51,7 +51,8 @@ networks = [
 username="makeronicc"
 
 [params.ananke.social.mastodon]
-username = "makeroni"
+username = "@makeroni"
+profilelink = "https://mastodon.org.uk/@makeroni"
 
 [params.ananke.social.bluesky]
 username = "hackwimbledon.bsky.social"
