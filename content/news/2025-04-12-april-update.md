@@ -1,5 +1,5 @@
 ---
-title: HackWimbledon front and center
+title: HackWimbledon front and centre
 date: 2025-04-12
 featured_image: "/img/hackwimbledon-banner.jpg"
 draft: false

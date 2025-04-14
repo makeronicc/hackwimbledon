@@ -20,23 +20,37 @@ pagination.pagerSize = 10
 [params]
   background_color_class = "bg-black"
   featured_image = "/img/hwback2.jpg"
-  site_logo = "/img/HackWimbledonLogoWhiteBack64.png"
-  show_reading_time = true
-  description = "A place to meet and make physically and digitally."
-  body_classes= "avenir bg-near-white"
-   recent_posts_number = 3
+  site_logo = "/img/hwlogo2025transp.png"
+  show_reading_time = false
+  show_word_count = false
+  body_classes= "dosis bg-near-white"
+  post_content_classes = "dosis"
+  recent_posts_number = 3
+  mainSections = ["news"]
+  custom_css = ["css/custom.css"]
 
 [menu]
 
   [[menu.main]]
+  name = "About"
+  url = "/about/"
+  weight = 1
+
+  [[menu.main]]
   name = "News"
   url = "/news/"
-  weight = 1
+  weight = 2
 
   [[menu.main]]
   name = "Meetings"
   url = "/meetings/"
-  weight = 2
+  weight = 3
+
+  [[menu.main]]
+  name = "People and Projects"
+  url = "/peopleandprojects/"
+  weight = 4
+
 
 [params.ananke.social.follow]
 new_window_icon = false
