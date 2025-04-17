@@ -4,4 +4,5 @@ go 1.23
 
 require (
 	github.com/theNewDynamic/gohugo-theme-ananke v0.0.0-20240910150237-af9d8e86fc3b // indirect
+	github.com/theNewDynamic/gohugo-theme-ananke/v2 v2.12.0 // indirect
 )

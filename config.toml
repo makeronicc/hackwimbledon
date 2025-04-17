@@ -3,47 +3,78 @@ languageCode = 'en-uk'
 title = 'HackWimbledon'
 DefaultContentLanguage = "en"
 enableRobotsTXT = true
-theme = "github.com/theNewDynamic/gohugo-theme-ananke"
+theme = "github.com/theNewDynamic/gohugo-theme-ananke/v2"
 pagination.pagerSize = 10
 
 [module]
   [[module.imports]]
-    path = 'github.com/theNewDynamic/gohugo-theme-ananke'
+    path = 'github.com/theNewDynamic/gohugo-theme-ananke/v2'
 
 [sitemap]
   changefreq = "monthly"
   priority = 0.5
   filename = "sitemap.xml"
 
+
+
 [params]
   background_color_class = "bg-black"
   featured_image = "/img/hwback2.jpg"
-  site_logo = "/img/HackWimbledonLogoWhiteBack128.png"
-  show_reading_time = true
-  description = "A place to meet and make physically and digitally."
-  body_classes= "avenir bg-near-white"
-   recent_posts_number = 3
+  site_logo = "/img/hwlogo2025transp.png"
+  show_reading_time = false
+  show_word_count = false
+  body_classes= "dosis bg-near-white"
+  post_content_classes = "dosis"
+  recent_posts_number = 3
+  mainSections = ["news"]
+  custom_css = ["css/custom.css"]
 
 [menu]
 
   [[menu.main]]
+  name = "About"
+  url = "/about/"
+  weight = 1
+
+  [[menu.main]]
   name = "News"
   url = "/news/"
-  weight = 1
+  weight = 2
 
   [[menu.main]]
   name = "Meetings"
   url = "/meetings/"
-  weight = 2
+  weight = 3
 
-[[params.ananke_socials]]
-name = "github"
-url = "https://github.com/makeronicc"
+  [[menu.main]]
+  name = "People and Projects"
+  url = "/peopleandprojects/"
+  weight = 4
 
-[[params.ananke_socials]]
-name = "mastodon"
-url = "https://mastodon.org.uk/@makeroni"
 
-[[params.ananke_socials]]
-name = "discord"
-url = "https://discord.gg/HYYXHSu"
+[params.ananke.social.follow]
+new_window_icon = false
+networks = [
+  "github",
+  "mastodon",
+  "bluesky",
+  "discord"
+]
+
+[params.ananke.social.github]
+username="makeronicc"
+
+[params.ananke.social.mastodon]
+username = "@makeroni"
+profilelink = "https://mastodon.org.uk/@makeroni"
+
+[params.ananke.social.bluesky]
+username = "hackwimbledon.bsky.social"
+
+[params.ananke.social.networks.discord]
+profile = "https://discord.gg/%s"
+new_window_icon = false
+icon = "discord"
+
+[params.ananke.social.discord]
+username = "HYYXHSu"
