@@ -1,11 +1,11 @@
 [build]
   publish = "public"
-  command = "hugo --gc --minify"
+  command = "hugo --gc --minify --buildFuture"
 
 [build.environment]
   HUGO_VERSION = "0.153"
   # Change this value to force cache clear and fresh rebuild
-  CACHE_BUST = "2026-01-07-v2"
+  CACHE_BUST = "2026-01-07-v3"
 
 [context.deploy-preview]
 command = "hugo -b $DEPLOY_PRIME_URL"
