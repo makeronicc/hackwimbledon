@@ -1,0 +1,13 @@
+# Cache-busting headers for HTML pages
+/*
+  Cache-Control: public, max-age=0, must-revalidate
+
+# Static assets can be cached longer
+/img/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/css/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/js/*
+  Cache-Control: public, max-age=31536000, immutable
