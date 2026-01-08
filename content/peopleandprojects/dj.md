@@ -1,9 +1,6 @@
 ---
 title: "Dj/Codepope"
 summary: "The person to blame for HackWimbledon"
-tags:
-- maker
-- coder
 ---
 
 ## Who?

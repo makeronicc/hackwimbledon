@@ -22,9 +22,11 @@ Fast forward to COVID, and Makeroni was created - an idea for an umbrella group 
 
 Fast forward again to 2025, and the need for Makeroni was gone, so HackWimbledon came back refreshed.
 
-Tragedy struck in mid-2025 - our friend Dj passed away unexpectedly. As the founder and soul of the group, we were hit hard, and took a pause.
+Tragedy struck in mid-2025 - our friend Dj passed away unexpectedly. He was the founder and soul of our group; we were hit hard, and took a pause.
 
-Dj was a great human who wanted people to meet, share their skills, and learn about using technology for good, together. With the generous support of Wimbletech, in 2026 we're back and continuing our events in his memory.
+Dj was a great and generous human. He wanted people to meet, share their skills, and learn about using technology for good, together. With the generous support of Wimbletech, in 2026 we're back, and continuing our activities in his memory.
+
+[We will remember Dj](/clacks).
 
 ## How it works
 

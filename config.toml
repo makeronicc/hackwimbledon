@@ -1,9 +1,13 @@
 baseURL = 'https://hackwimbledon.org/'
 languageCode = 'en-GB'
 title = 'HackWimbledon'
+description = "A pop-up hackspace in Wimbledon - hardware, software, making and more"
+keywords = ["hackspace", "makerspace", "wimbledon", "hardware", "software", "maker", "electronics", "3d printing"]
+copyright = "HackWimbledon"
 DefaultContentLanguage = "en"
 enableRobotsTXT = true
 pagination.pagerSize = 10
+disableKinds = ["taxonomy", "term"]
 
 [module]
   [[module.imports]]
@@ -13,6 +17,22 @@ pagination.pagerSize = 10
   changefreq = "monthly"
   priority = 0.5
   filename = "sitemap.xml"
+
+[outputs]
+  home = ["HTML", "RSS"]
+  section = ["HTML", "RSS"]
+
+[outputFormats.RSS]
+  mediatype = "application/rss+xml"
+  baseName = "feed"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    style = "monokai"
+    lineNos = true
 
 
 
@@ -27,6 +47,15 @@ pagination.pagerSize = 10
   recent_posts_number = 3
   mainSections = ["news"]
   custom_css = ["css/custom.css"]
+  description = "A pop-up hackspace in Wimbledon - hardware, software, making and more"
+  images = ["/img/hwlogo2025.png"]
+
+  # Open Graph settings for social sharing
+  [params.opengraph]
+    title = "HackWimbledon"
+    description = "A pop-up hackspace in Wimbledon - hardware, software, making and more"
+    images = ["/img/hwlogo2025.png"]
+    locale = "en_GB"
 
 [menu]
 
@@ -46,7 +75,7 @@ pagination.pagerSize = 10
   weight = 3
 
   [[menu.main]]
-  name = "People and Projects"
+  name = "People & Projects"
   url = "/peopleandprojects/"
   weight = 4
 

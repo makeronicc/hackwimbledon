@@ -1,8 +1,6 @@
 ---
 title: "Bazza"
 summary: "He does the Home Assisting"
-tags: 
-- "homeautomation"
 ---
 
 ## Who?

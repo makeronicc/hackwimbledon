@@ -9,7 +9,7 @@ default:
 
 # Build the site with minification and garbage collection
 build:
-    {{hugo}} --gc --minify
+    HUGO_ENV=production {{hugo}} --gc --minify
 
 # Serve the site locally for development (with correct baseURL)
 serve:
@@ -33,7 +33,7 @@ version:
 
 # Validate config and check for errors
 check:
-    {{hugo}} --gc --minify --verbose
+    HUGO_ENV=production {{hugo}} --gc --minify --verbose
 
 # Quick build and restart nginx (for container deployment)
 deploy: build
