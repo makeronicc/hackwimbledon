@@ -1,5 +1,5 @@
 baseURL = 'https://hackwimbledon.org/'
-languageCode = 'en-uk'
+languageCode = 'en-GB'
 title = 'HackWimbledon'
 DefaultContentLanguage = "en"
 enableRobotsTXT = true
