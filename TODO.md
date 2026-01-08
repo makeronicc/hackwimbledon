@@ -12,3 +12,9 @@
 - [ ] photo gallery
 - [ ] Dj shirts gallery (David idea)
 - [ ] stickers and branding
+- [ ] 404 page
+- [ ] privacy-respecting analytics
+- [ ] projects showcase
+- [ ] resources and learning links
+- [ ] CONTRIBUTING guide
+- [ ] alt text audit

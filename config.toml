@@ -4,7 +4,7 @@ title = 'HackWimbledon'
 description = "A pop-up hackspace in Wimbledon - hardware, software, making and more"
 keywords = ["hackspace", "makerspace", "wimbledon", "hardware", "software", "maker", "electronics", "3d printing"]
 copyright = "HackWimbledon"
-DefaultContentLanguage = "en"
+defaultContentLanguage = "en"
 enableRobotsTXT = true
 pagination.pagerSize = 10
 disableKinds = ["taxonomy", "term"]
@@ -14,7 +14,7 @@ disableKinds = ["taxonomy", "term"]
     path = 'github.com/theNewDynamic/gohugo-theme-ananke/v2'
 
 [sitemap]
-  changefreq = "monthly"
+  changefreq = "weekly"
   priority = 0.5
   filename = "sitemap.xml"
 
@@ -37,6 +37,7 @@ disableKinds = ["taxonomy", "term"]
 
 
 [params]
+  disable_twitter_cards = true
   background_color_class = "bg-black"
   featured_image = "/img/hwback2.jpg"
   site_logo = "/img/hwlogo2025transp.png"

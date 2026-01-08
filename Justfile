@@ -10,6 +10,7 @@ default:
 # Build the site with minification and garbage collection
 build:
     HUGO_ENV=production {{hugo}} --gc --minify
+    find public -name "*.html" -exec sed -i 's/<meta name=twitter:[^>]*>//g' {} \;
 
 # Serve the site locally for development (with correct baseURL)
 serve:
