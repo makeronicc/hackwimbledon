@@ -16,6 +16,6 @@ If you're planning to come along, please [sign up on our lu.ma event page](https
 
 Bring a laptop / computing device, and if you have a maker project you're working on, bring that too - we also have some boxes of components to share if you're looking to learn something new. Also, [Andy](https://andypiper.co.uk) is intending to talk a bit about a holiday project: getting [Home Assistant Green](https://www.home-assistant.io/green/) up-and-running (Andy is a little bit obsessed with it right now).
 
-Still getting things into shape with the website, but we're back [on Mastodon] and we're going to work on fixing the various channels and code repositories to be a bit more consistent.
+Still getting things into shape with the website, but we're back [on Mastodon](https://mastodon.org.uk/@hackwimbledon) and we're going to work on fixing the various channels and code repositories to be a bit more consistent.
 
 We're going to be sharing more events [on lu.ma](https://luma.com/hackwimbledon) as soon as we have them in the calendar.
