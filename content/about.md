@@ -42,7 +42,7 @@ We get together a couple of times a month (or at least, when we can).
 
 Sometimes, a member of the group will bring a project or topic they want to talk about - a "Show and Tell" session, so we can all learn something new.
 
-Other meetups (most of them) we all sit and hack on our projects individually, and get help and ideas from one another other.
+Other meetups (most of them) we all sit and hack on our projects individually, and get help and ideas from one another.
 
 We've run workshops on topics like setting up local AI systems, in the past. It's not all indoors, either: we've run "hack in the park", and "hack on the Common" too! We are also looking into having guest speakers in the future.
 
