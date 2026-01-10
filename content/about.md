@@ -10,13 +10,13 @@ HackWimbledon is what we refer to as a "pop-up hackspace".
 
 What does *that* mean? Well, we've got a lot of the ethos and values of a full-on hackspace - creativity, hacking with hardware and software and everything connected with that and beyond (3D printing, CNC, all kinds of maker stuff).
 
-What we *don't* have is a full-time space with all of the fixings - many of the folks who come along have access to their own gear, but we don't have a fixed space where it all lives, people bring things along that they need, or share.
+What we *don't* have is a full-time space with all of the fixings - many of the folks who come along have access to their own gear, but we don't have a fixed space where it all lives. People bring things along that they need, share, and borrow.
 
-So, we "pop-up" the hackspace every few weeks to do something fun, and learn together.
+So, we "pop-up" the hackspace every few weeks to do something fun, share our resources, and learn together.
 
 ## History
 
-Way back in 2014, **Dj Walker-Morgan** was checking out the Wimbledon Library, and wondering what was going on. **Wimbletech** was just getting set up, and after a chat about hacking and making (and their synergy with small startups), Dj decided to start a popup hackspace alongside the newly-established Wimbletech.
+Way back in 2014, **Dj Walker-Morgan** was checking out the Wimbledon Library, and wondering what was going on. **Wimbletech** was just getting set up, and after a chat about hacking and making (and their synergy with small startups), Dj decided to start a pop-up hackspace alongside the newly-established Wimbletech.
 
 Fast forward to COVID, and Makeroni was created - an idea for an umbrella group of online hackers, who could meet and continue their makes and tinkering. Makeroni included HackWimbledon events as well as Make Mitcham and a few other things.
 
@@ -69,3 +69,7 @@ Respect and inclusivity are important to us. Bad vibes are not OK.
 Formally, we've adopted the Contributor Covenant, version 3.0, from the [Organization for Ethical Source](https://www.contributor-covenant.org/).
 
 Please read our full [Code of Conduct](/code-of-conduct/), as it applies to all activities related to HackWimbledon - contributing [code](https://github.com/makeronicc), attending [events](https://luma.com/hackwimbledon), or taking part in our [discussions](https://discord.gg/py5VZarC2u).
+
+## Thanks to our Supporters
+
+We are incredibly grateful to **[Wimbletech](https://wimbletech.com/)** for their generous support in providing us with a venue for our meetings. They are a community-led co-working space that shares our values of community and collaboration.

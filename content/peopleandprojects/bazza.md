@@ -1,5 +1,6 @@
 ---
 title: "Bazza"
+category: "person"
 summary: "He does the Home Assisting"
 ---
 

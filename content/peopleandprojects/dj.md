@@ -1,15 +1,20 @@
 ---
 title: "Dj/Codepope"
+category: "person"
 summary: "The person to blame for HackWimbledon"
 ---
 
 ## Who?
 
-Dj started HackWimbledon over a decade ago as a popup hackspace. And he won't stop doing it.
+Dj was the OG - the founder of HackWimbledon. He started it over a decade ago as a pop-up hackspace.
+
+He passed away in mid-2025, and is greatly missed.
+
+Dj was a great and generous human. He wanted people to meet, share their skills, and learn about using technology for good, together.
 
 ## What?
 
-Dj dabbles in everything with the power of ADHD and the stamina of a manatee. So, everything from building clusters with Docker and Kubernetes, to messing about with retro emulations of classic computers... which he likely used back in the day.
+Dj dabbled in everything with the power of ADHD and the stamina of a manatee. Everything from building clusters with Docker and Kubernetes, to messing about with retro emulations of classic computers... which he likely used back in the day.
 
 ## Projects
 
