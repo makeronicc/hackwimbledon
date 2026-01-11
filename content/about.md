@@ -72,4 +72,13 @@ Please read our full [Code of Conduct](/code-of-conduct/), as it applies to all 
 
 ## Thanks to our Supporters
 
-We are incredibly grateful to **[Wimbletech](https://wimbletech.com/)** for their generous support in providing us with a venue for our meetings. They are a community-led co-working space that shares our values of community and collaboration.
+We are incredibly grateful to **[Wimbletech CIC](https://wimbletech.com/)** for their generous support in providing us with a venue for our meetings. They are a local affordable community workspace that shares our values of collaboration.
+
+{{< rawhtml >}}
+<div style="text-align: center; margin-top: 2rem;">
+  <a href="https://wimbletech.com/" target="_blank" rel="noopener">
+    <img src="/img/WimbletechCIC.svg" alt="Wimbletech CIC" style="max-width: 300px; height: auto;">
+  </a>
+</div>
+{{< /rawhtml >}}
+

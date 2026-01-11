@@ -4,11 +4,11 @@
   - [x] set canonical redirect .com -> .org
   - [ ] retire / redirect makeroni.cc -> .org
 - [ ] Hugo [layout migration](https://github.com/theNewDynamic/gohugo-theme-ananke/discussions/886)
-- [ ] move things to Codeberg
+- [ ] move things to [Codeberg](https://codeberg.org/HackWimbledon)
   - [ ] new deployment pipeline
 - [x] add info on how to join meetings remotely
   - [ ] figure out recording and sharing talks
-- [ ] add thanks to Wimbletech somewhere
+- [x] add thanks to Wimbletech somewhere
 - [x] update the people pages
   - [x] link to personal projects
   - [ ] add more regulars
@@ -16,8 +16,12 @@
   - [ ] do more with socials
 - [ ] photo gallery
 - [ ] Dj shirts gallery (David idea)
-- [ ] stickers and branding
-- [ ] privacy-respecting analytics
+- [ ] branding
+  - [ ] cards
+  - [ ] leaflets
+  - [ ] poster / popup banner
+  - [ ] stickers
+- [x] privacy-respecting analytics
 - [ ] projects showcase
 - [ ] resources and learning links
 - [ ] CONTRIBUTING guide

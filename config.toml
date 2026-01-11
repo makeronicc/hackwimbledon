@@ -40,7 +40,7 @@ disableKinds = ["taxonomy", "term"]
   disable_twitter_cards = true
   background_color_class = "bg-black"
   featured_image = "/img/hwback2.jpg"
-  site_logo = "/img/hwlogo2025transp.png"
+  site_logo = "/img/hw-2026-logo.png"
   show_reading_time = false
   show_word_count = false
   body_classes= "dosis bg-near-white"
@@ -49,13 +49,13 @@ disableKinds = ["taxonomy", "term"]
   mainSections = ["news"]
   custom_css = ["css/custom.css"]
   description = "A pop-up hackspace in Wimbledon - hardware, software, making and more"
-  images = ["/img/hwlogo2025.png"]
+  images = ["/img/hw-2026-logo.png"]
 
   # Open Graph settings for social sharing
   [params.opengraph]
     title = "HackWimbledon"
     description = "A pop-up hackspace in Wimbledon - hardware, software, making and more"
-    images = ["/img/hwlogo2025.png"]
+    images = ["/img/hw-2026-logo.png"]
     locale = "en_GB"
 
 [menu]

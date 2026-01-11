@@ -1,0 +1,90 @@
+{{ $lat := .Get "lat" }}
+{{ $lon := .Get "lon" }}
+{{ $zoom := .Get "zoom" | default "15" }}
+{{ $marker := .Get "marker" | default "/img/hw-2026-logo.png" }}
+{{ $height := .Get "height" | default "400px" }}
+{{ $width := .Get "width" | default "100%" }}
+
+<!-- Leaflet CSS -->
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+     integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+     crossorigin=""/>
+
+<!-- Leaflet JS -->
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+     integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+     crossorigin=""></script>
+
+<div id="map-{{ $lat }}-{{ $lon }}" style="height: {{ $height }}; width: {{ $width }}; border-radius: 8px; margin: 1rem 0;"></div>
+
+<script>
+(function() {
+    var map = L.map('map-{{ $lat }}-{{ $lon }}').setView([{{ $lat }}, {{ $lon }}], {{ $zoom }});
+
+    // Add CartoDB Positron tiles (clean, minimal style)
+    L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+        maxZoom: 19,
+        attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> © <a href="https://carto.com/attributions">CARTO</a>',
+        subdomains: 'abcd'
+    }).addTo(map);
+
+    // Custom marker icons
+    var wimbletechIcon = L.icon({
+        iconUrl: '{{ $marker }}',
+        iconSize: [48, 48],
+        iconAnchor: [24, 24],
+        popupAnchor: [0, -24]
+    });
+
+    var libraryIcon = L.divIcon({
+        html: '<svg width="16" height="16" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M96 0C43 0 0 43 0 96V416c0 53 43 96 96 96H384h32c17.7 0 32-14.3 32-32s-14.3-32-32-32V384c17.7 0 32-14.3 32-32V32c0-17.7-14.3-32-32-32H384 96zm0 384H352v64H96c-17.7 0-32-14.3-32-32s14.3-32 32-32zm32-240c0-8.8 7.2-16 16-16H336c8.8 0 16 7.2 16 16s-7.2 16-16 16H144c-8.8 0-16-7.2-16-16zm16 48H336c8.8 0 16 7.2 16 16s-7.2 16-16 16H144c-8.8 0-16-7.2-16-16s7.2-16 16-16z" fill="#D32F2F"/></svg>',
+        className: 'library-icon',
+        iconSize: [16, 16],
+        iconAnchor: [8, 8],
+        popupAnchor: [0, -8]
+    });
+
+    var trainIcon = L.divIcon({
+        html: '<svg width="16" height="16" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M96 0C43 0 0 43 0 96V352c0 48 35.2 87.7 81.1 94.9l-46 46C28.1 499.9 33.1 512 43 512H82.7c8.5 0 16.6-3.4 22.6-9.4L160 448H288l54.6 54.6c6 6 14.1 9.4 22.6 9.4H405c10 0 15-12.1 7.9-19.1l-46-46c46-7.1 81.1-46.9 81.1-94.9V96c0-53-43-96-96-96H96zM64 96c0-17.7 14.3-32 32-32H352c17.7 0 32 14.3 32 32v96c0 17.7-14.3 32-32 32H96c-17.7 0-32-14.3-32-32V96zM224 384a32 32 0 1 1 0-64 32 32 0 1 1 0 64z" fill="#1976D2"/></svg>',
+        className: 'train-icon',
+        iconSize: [16, 16],
+        iconAnchor: [8, 8],
+        popupAnchor: [0, -8]
+    });
+
+    // Add Wimbletech marker (at actual meeting location)
+    L.marker([51.422561, -0.207556], {icon: wimbletechIcon})
+        .addTo(map)
+        .bindPopup('<strong>HackWimbledon</strong><br>Wimbletech, Compton Road<br><a href="https://www.openstreetmap.org/?mlat=51.422561&mlon=-0.207556#map={{ $zoom }}/51.422561/-0.207556" target="_blank">View on OpenStreetMap</a>');
+
+    // Add Library marker
+    L.marker([51.422219, -0.208267], {icon: libraryIcon})
+        .addTo(map)
+        .bindPopup('<strong>Wimbledon Library</strong>');
+
+    // Add Library text label
+    var libraryLabel = L.divIcon({
+        html: '<div style="background-color: rgba(255,255,255,0.9); padding: 2px 6px; border-radius: 3px; font-weight: bold; font-size: 11px; white-space: nowrap; color: #333; border: 1px solid #999;">Library</div>',
+        className: 'library-label',
+        iconSize: [50, 18],
+        iconAnchor: [-10, 9]
+    });
+
+    L.marker([51.422219, -0.208267], {icon: libraryLabel}).addTo(map);
+
+    // Add Train Station marker
+    L.marker([51.4213791, -0.2067389], {icon: trainIcon})
+        .addTo(map)
+        .bindPopup('<strong>Wimbledon Train Station</strong>');
+
+    // Add Station text label
+    var stationLabel = L.divIcon({
+        html: '<div style="background-color: rgba(255,255,255,0.9); padding: 2px 6px; border-radius: 3px; font-weight: bold; font-size: 11px; white-space: nowrap; color: #333; border: 1px solid #999;">Station</div>',
+        className: 'station-label',
+        iconSize: [50, 18],
+        iconAnchor: [-10, 9]
+    });
+
+    L.marker([51.4213791, -0.2067389], {icon: stationLabel}).addTo(map);
+})();
+</script>
