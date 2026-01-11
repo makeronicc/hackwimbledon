@@ -1,7 +1,7 @@
 ---
 title: Bringing HackWimbledon back for 2026
 date: 2026-01-07
-featured_image: "/img/hw-2026-logo.png"
+featured_image: "/img/hw-2026-logo-small.png"
 draft: false
 author: andy
 tags:
