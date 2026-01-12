@@ -21,9 +21,21 @@
   - [ ] leaflets
   - [ ] poster / popup banner
   - [ ] stickers
-- [x] privacy-respecting analytics
+- [x] privacy-respecting analytics (umami)
 - [ ] projects showcase
 - [ ] resources and learning links
+- [ ] interesting events calendar
+- [ ] our values and interests page
 - [ ] CONTRIBUTING guide
-- [ ] alt text audit
+- [x] alt text audit
 - [x] 404 page
+
+
+events we are interested in
+
+CamJam https://camjam.me/
+PiWars https://piwars.org/
+Hacky Racers https://hackyracers.co.uk/robotic-racing-series/
+Retrofest https://www.retrofest.uk/
+EMF https://emfcamp.org
+OggCamp https://oggcamp.org
