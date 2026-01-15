@@ -12,7 +12,7 @@
 - [x] update the people pages
   - [x] link to personal projects
   - [ ] add more regulars
-- [ ] sort out access to Bluesky account
+- [x] sort out access to Bluesky account
   - [ ] do more with socials
 - [ ] photo gallery
 - [ ] Dj shirts gallery (David idea)
@@ -24,7 +24,7 @@
 - [x] privacy-respecting analytics (umami)
 - [ ] projects showcase
 - [ ] resources and learning links
-- [ ] interesting events calendar
+- [ ] interesting events calendar (see below)
 - [ ] our values and interests page
 - [ ] CONTRIBUTING guide
 - [x] alt text audit
@@ -39,3 +39,6 @@ Hacky Racers https://hackyracers.co.uk/robotic-racing-series/
 Retrofest https://www.retrofest.uk/
 EMF https://emfcamp.org
 OggCamp https://oggcamp.org
+
+Peckham Festival of Creative Computing https://peckhamdigital.org/
+Archive of Retro Computing at Kingston Uni https://www.arcatku.org/index.html
