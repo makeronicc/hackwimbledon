@@ -1,5 +1,6 @@
 baseURL = 'https://hackwimbledon.org/'
 languageCode = 'en-GB'
+metaDataFormat = "yaml"
 title = 'HackWimbledon'
 description = "A pop-up hackspace in Wimbledon - hardware, software, making and more"
 keywords = ["hackspace", "makerspace", "wimbledon", "hardware", "software", "maker", "electronics", "3d printing"]

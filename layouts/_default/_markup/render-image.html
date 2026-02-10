@@ -1,0 +1,12 @@
+{{- $img := .Page.Resources.GetMatch .Destination -}}
+{{- if $img -}}
+{{- $scaled := $img.Resize "800x" -}}
+<figure class="mw-100">
+  <img src="{{ $scaled.RelPermalink }}" width="{{ $scaled.Width }}" height="auto" alt="{{ .Text }}"
+    style="max-width: 100%; height: auto; display: block;" />
+  {{ with .Title }}<figcaption class="f6 i tc pv2">{{ . }}</figcaption>{{ end }}
+</figure>
+{{- else -}}
+{{/* Fallback for external images */}}
+<img src="{{ .Destination | safeURL }}" alt="{{ .Text }}" style="max-width: 100%; height: auto;" />
+{{- end -}}
