@@ -6,6 +6,8 @@ draft: false
 author: andy
 tags:
 - hackwimbledon
+images:
+ - "images/heart.jpg"
 ---
 
 Last year, the venerable [Arduino](https://arduino.cc) - one of the OG Open Source maker companies of the past 20 years - was acquired by Qualcomm, and we were pretty uncertain what to expect. There's certainly been a lot of discussion about the drawbacks, and changes to the terms and conditions and such.
