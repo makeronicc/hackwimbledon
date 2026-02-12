@@ -8,7 +8,9 @@
       {{ partials.Include "site-navigation.html" . }}
       <div class="tc-l pv3 ph1 ph1-ns">
         {{ if not .Params.omit_header_text }}
-          <div class="f2 f1-l fw2 white-90 mb0 lh-title">{{ .Title | compare.Default .Site.Title }}</div>
+          <h1 class="f2 f-subheadline-l fw2 white-80 mb0 lh-title mt0">
+            <img src="/img/hwlogo2025sitetitle-white.svg" alt="HackWimbledon" height="100">
+          </h1>
           {{ with .Params.description  }}
             <div class="fw1 f5 f3-l white-80 measure-wide-l center lh-copy mt3 mb4">
               {{ . }}
