@@ -1,5 +1,6 @@
 ---
 title: All About HackWimbledon
+featured_image: /img/hwback2.jpg
 ---
 
 [jump to *how it works*](/about#how-it-works)
