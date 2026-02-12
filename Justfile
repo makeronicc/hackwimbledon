@@ -1,7 +1,7 @@
 # HackWimbledon Site Build Tasks
 
 # Variables
-hugo := if path_exists("/usr/bin/hugo") == "true" { "hugo" } else { "~/bin/hugo-0.153" }
+hugo := if path_exists("/usr/local/bin/hugo") == "true" { "hugo" } else { "~/bin/hugo-0.153" }
 
 # Default recipe (list available commands)
 default:
