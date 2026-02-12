@@ -1,0 +1,43 @@
+{{ define "main" }}
+<article class="pa1 pa1-ns nested-copy-line-height">
+  <section class="cf ph1 ph1-l pv1 pv1-l f4 tc-l center measure-wide lh-copy nested-links mid-gray">
+    {{ .Content }}
+  </section>
+
+  <div class="events-list mt4 ph3 ph5-l center measure-wide">
+    {{ $events := .Site.Data.events }}
+    {{ if $events }}
+      {{ range $events }}
+      <div class="event-card ba b--black-10 br3 pa3 mb3 tl bg-white">
+        <h2 class="f3 mb2">
+          {{ if .url }}
+            <a href="{{ .url }}" target="_blank" rel="noopener" class="link blue hover-dark-blue">{{ .name }}</a>
+          {{ else }}
+            {{ .name }}
+          {{ end }}
+        </h2>
+
+        <div class="f5 mb2">
+          <strong>📅 Date:</strong> {{ .date }}<br>
+          <strong>📍 Location:</strong> {{ .location }}
+        </div>
+
+        {{ if .description }}
+        <p class="f5 lh-copy measure">{{ .description }}</p>
+        {{ end }}
+
+        {{ if .tags }}
+        <div class="tags mt2">
+          {{ range .tags }}
+            <span class="dib ba br2 pa1 mr1 f6 black-50">#{{ . }}</span>
+          {{ end }}
+        </div>
+        {{ end }}
+      </div>
+      {{ end }}
+    {{ else }}
+      <p class="f4 tc">No events yet. Check back soon!</p>
+    {{ end }}
+  </div>
+</article>
+{{ end }}

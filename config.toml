@@ -72,7 +72,7 @@ disableKinds = ["taxonomy", "term"]
   weight = 2
 
   [[menu.main]]
-  name = "Meetings"
+  name = "Meetups"
   url = "/meetings/"
   weight = 3
 
@@ -80,6 +80,11 @@ disableKinds = ["taxonomy", "term"]
   name = "People & Projects"
   url = "/peopleandprojects/"
   weight = 4
+
+  [[menu.main]]
+  name = "Events"
+  url = "/events/"
+  weight = 5
 
 
 [params.ananke.social.follow]

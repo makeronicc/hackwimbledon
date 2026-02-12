@@ -24,7 +24,7 @@
 - [x] privacy-respecting analytics (umami)
 - [ ] projects showcase
 - [ ] resources and learning links
-- [ ] interesting events calendar (see below)
+- [x] interesting events calendar (see below)
 - [ ] our values and interests page
 - [ ] CONTRIBUTING guide
 - [x] alt text audit

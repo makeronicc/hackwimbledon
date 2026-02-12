@@ -1,9 +1,12 @@
 ---
-title: Meetings at HackWimbledon
+title: HackWimbledon Meetups
+aliases:
+  - /meetups/
 ---
 
+# Meetups
 
-So you want to join us at HackWimbledon? As a "rule of thumb" we try to meet up on a couple of Sundays each month, but this is flexible depending on the availability of Wimbletech's event space.
+Want to come along to a meetup? As a "rule of thumb" we try to meet up on a couple of Sundays each month, but this is flexible depending on the availability of Wimbletech's event space.
 
 The specific pattern of meetings may vary, but you can always check on the events calendar. It is hosted on [lu.ma](https://luma.com/hackwimbledon).
 

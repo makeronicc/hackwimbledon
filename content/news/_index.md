@@ -1,8 +1,7 @@
 ---
 title: "News"
-draft: false
 tags:
 - posts
 ---
 
-## Recent updates
+# Recent updates

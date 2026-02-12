@@ -1,0 +1,58 @@
+[
+  {
+    "name": "Cambridge Raspberry Jam",
+    "date": "2026-02-28",
+    "location": "Makespace Cambridge",
+    "url": "https://camjam.me/",
+    "description": "Raspberry Pi birthday celebration at Makespace Cambridge, in the heart of the city",
+    "tags": ["raspberry-pi", "maker", "cambridge"]
+  },
+  {
+    "name": "BeetleBrawl",
+    "date": "2026-02-28",
+    "location": "Bristol",
+    "url": "https://bristolbotbuilders.com/brawl/",
+    "description": "Robot combat event at Bristol Bot Builders",
+    "tags": ["robotics", "combat", "bristol"]
+  },
+  {
+    "name": "OggCamp",
+    "date": "2026-04-18 to 19",
+    "location": "Manchester",
+    "url": "https://oggcamp.org",
+    "description": "Open source and maker unconference. Really fun weekend event! (Andy is co-running this one)",
+    "tags": ["opensource", "unconference", "maker"]
+  },
+  {
+    "name": "Hacky Racers Robotic Racing Series",
+    "date": "2026-04-18 to 19",
+    "location": "near Sudbury",
+    "url": "https://hackyracers.co.uk/robotic-racing-series/",
+    "description": "Robotic racing event - always entertaining!",
+    "tags": ["robotics", "racing", "outdoor"]
+  },
+  {
+    "name": "Maker Central",
+    "date": "2026-05-16 to 17",
+    "location": "NEC Birmingham",
+    "url": "https://www.makerscentral.co.uk/",
+    "description": "Major 2-day weekend maker event at the NEC",
+    "tags": ["maker", "exhibition"]
+  },
+  {
+    "name": "Retrofest",
+    "date": "2026-05-30 to 31",
+    "location": "Swindon",
+    "url": "https://www.retrofest.uk/",
+    "description": "Retro computing and gaming festival",
+    "tags": ["retro", "computing", "gaming"]
+  },
+  {
+    "name": "Electromagnetic Field (EMF)",
+    "date": "2026-07-16 to 19",
+    "location": "Eastnor",
+    "url": "https://emfcamp.org",
+    "description": "A big hacker camp - there are rumours of a HackWimbledon presence...",
+    "tags": ["camping", "hacker", "outdoor"]
+  }
+]
