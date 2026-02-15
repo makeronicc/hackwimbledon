@@ -1,5 +1,18 @@
 [
   {
+    "name": "Meet the Home Assisant team",
+    "date": "2026-02-25",
+    "location": "London",
+    "url": "https://luma.com/rqbermeo",
+    "description": "An evening with the Home Assistant team, in London",
+    "tags": [
+      "home-assistant",
+      "automation",
+      "social",
+      "london"
+    ]
+  },
+  {
     "name": "Cambridge Raspberry Jam",
     "date": "2026-02-28",
     "location": "Makespace Cambridge",
