@@ -2,7 +2,7 @@ baseURL = 'https://hackwimbledon.org/'
 languageCode = 'en-GB'
 metaDataFormat = "yaml"
 title = 'HackWimbledon'
-description = "A pop-up hackspace in Wimbledon - hardware, software, making and more"
+description = "A pop-up hackspace in Wimbledon: make, create, illuminate, and learn"
 keywords = ["hackspace", "makerspace", "wimbledon", "hardware", "software", "maker", "electronics", "3d printing"]
 copyright = "HackWimbledon"
 defaultContentLanguage = "en"
@@ -49,13 +49,12 @@ disableKinds = ["taxonomy", "term"]
   recent_posts_number = 3
   mainSections = ["news"]
   custom_css = ["css/custom.css"]
-  description = "A pop-up hackspace in Wimbledon - hardware, software, making and more"
   images = ["/img/hw-2026-logo-new-512.png"]
 
   # Open Graph settings for social sharing
   [params.opengraph]
     title = "HackWimbledon"
-    description = "A pop-up hackspace in Wimbledon - hardware, software, making and more"
+    description = "A pop-up hackspace in Wimbledon: make, create, illuminate, and learn"
     images = ["/img/hw-2026-logo-new-512.png"]
     locale = "en_GB"
 
