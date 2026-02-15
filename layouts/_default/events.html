@@ -6,16 +6,42 @@
 
   <div class="events-list mt4 ph3 ph5-l center measure-wide">
     {{ $events := .Site.Data.events }}
-    {{ if $events }}
-      {{ range $events }}
+    {{ $now := now }}
+    {{ $upcoming := slice }}
+    {{ $past := slice }}
+
+    {{ range $events }}
+      {{ $eventDate := .date }}
+      {{ $parsedDate := "" }}
+
+      {{/* Handle date ranges by extracting first date */}}
+      {{ if (strings.Contains $eventDate " to ") }}
+        {{ $parsedDate = index (split $eventDate " to ") 0 }}
+      {{ else }}
+        {{ $parsedDate = $eventDate }}
+      {{ end }}
+
+      {{/* Parse the date and compare with today */}}
+      {{ $date := time.AsTime $parsedDate }}
+      {{ if ge $date $now }}
+        {{ $upcoming = $upcoming | append . }}
+      {{ else }}
+        {{ $past = $past | append . }}
+      {{ end }}
+    {{ end }}
+
+    {{/* Display upcoming events */}}
+    {{ if $upcoming }}
+      <h2 class="f3 mb3 tl">Upcoming Events</h2>
+      {{ range $upcoming }}
       <div class="event-card ba b--black-10 br3 pa3 mb3 tl bg-white">
-        <h2 class="f3 mb2">
+        <h3 class="f3 mb2">
           {{ if .url }}
             <a href="{{ .url }}" target="_blank" rel="noopener" class="link blue hover-dark-blue">{{ .name }}</a>
           {{ else }}
             {{ .name }}
           {{ end }}
-        </h2>
+        </h3>
 
         <div class="f5 mb2">
           <strong>📅 Date:</strong> {{ .date }}<br>
@@ -36,7 +62,40 @@
       </div>
       {{ end }}
     {{ else }}
-      <p class="f4 tc">No events yet. Check back soon!</p>
+      <p class="f4 tc mb4">No upcoming events yet. Check back soon!</p>
+    {{ end }}
+
+    {{/* Display past events if any */}}
+    {{ if $past }}
+      <h2 class="f3 mb3 mt4 tl gray">Past Events</h2>
+      {{ range $past }}
+      <div class="event-card ba b--black-10 br3 pa3 mb3 tl bg-near-white o-60">
+        <h3 class="f3 mb2 gray">
+          {{ if .url }}
+            <a href="{{ .url }}" target="_blank" rel="noopener" class="link gray hover-dark-gray">{{ .name }}</a>
+          {{ else }}
+            {{ .name }}
+          {{ end }}
+        </h3>
+
+        <div class="f5 mb2 gray">
+          <strong>📅 Date:</strong> {{ .date }}<br>
+          <strong>📍 Location:</strong> {{ .location }}
+        </div>
+
+        {{ if .description }}
+        <p class="f5 lh-copy measure gray">{{ .description }}</p>
+        {{ end }}
+
+        {{ if .tags }}
+        <div class="tags mt2">
+          {{ range .tags }}
+            <span class="dib ba br2 pa1 mr1 f6 black-30">#{{ . }}</span>
+          {{ end }}
+        </div>
+        {{ end }}
+      </div>
+      {{ end }}
     {{ end }}
   </div>
 </article>

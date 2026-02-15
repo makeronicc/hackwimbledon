@@ -17,10 +17,10 @@
 - [ ] photo gallery
 - [ ] Dj shirts gallery (David idea)
 - [ ] branding
-  - [ ] cards
+  - [x] cards
   - [ ] leaflets
-  - [ ] poster / popup banner
-  - [ ] stickers
+  - [x] poster / popup banner
+  - [x] stickers
 - [x] privacy-respecting analytics (umami)
 - [ ] projects showcase
 - [ ] resources and learning links
