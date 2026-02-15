@@ -1,7 +1,7 @@
 ---
 title: HackWimbledon New Look
 date: 2025-04-14
-featured_image: "/img/hw-2026-logo-small.png"
+featured_image: "/img/hw-2026-logo-new-512.png"
 draft: false
 author: dj
 tags:
