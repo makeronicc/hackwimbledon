@@ -11,7 +11,7 @@ images:
 
 ---
 
-A small meetup this week, in more ways than one! [Andy](https://andypiper.me) had seen some articles about [using an ESP32-powered LCD as a miniature monitor](https://www.cnx-software.com/2026/02/09/add-a-tiny-desktop-monitor-to-your-pc-with-the-esp32-desktop-monitor-project/) but he had not been able to get the exact model of devboard mentioned, and ended up with a slightly larger 1.9" screen instead of the 1.14" model. It turns out that the [original code](https://github.com/tuckershannon/ESP32-Desktop-Monitor) was (probably?) written for Windows, as well, so he had to jump through some hoops with Python, Wayland, and desktop portals to get things to work.
+A small meetup this week, in more ways than one! [Andy](https://andypiper.me) had seen some articles about [using an ESP32-powered LCD as a miniature monitor](https://www.cnx-software.com/2026/02/09/add-a-tiny-desktop-monitor-to-your-pc-with-the-esp32-desktop-monitor-project/) but he had not been able to get the exact model of devboard mentioned, and ended up with a [slightly larger 1.9" screen](https://amzn.to/4rQBL7J) instead of the 1.14" model. It turns out that the [original code](https://github.com/tuckershannon/ESP32-Desktop-Monitor) was (probably?) written for Windows, as well, so he had to jump through some hoops with Python, Wayland, and desktop portals to get things to work.
 
 So - most of this week's meetup was mirrored via Wifi to a teeny, tiny, display sitting over on the wall, underneath the big screen where we had the A/V setup for remote participants...If this was impractical, you weren't trying hard enough to see it...
 
