@@ -29,20 +29,24 @@
     "tags": ["robotics", "combat", "bristol"]
   },
   {
-    "name": "OggCamp",
-    "date": "2026-04-18 to 19",
-    "location": "Manchester",
-    "url": "https://oggcamp.org",
-    "description": "Open source and maker unconference. Really fun weekend event! (Andy is co-running this one)",
-    "tags": ["opensource", "unconference", "maker"]
-  },
-  {
     "name": "Hacky Racers Robotic Racing Series",
     "date": "2026-04-18 to 19",
     "location": "near Sudbury",
     "url": "https://hackyracers.co.uk/robotic-racing-series/",
     "description": "Robotic racing event - always entertaining!",
     "tags": ["robotics", "racing", "outdoor"]
+  },
+  {
+    "name": "OggCamp",
+    "date": "2026-04-25 to 26",
+    "location": "Manchester",
+    "url": "https://oggcamp.org",
+    "description": "Open source and maker unconference. Really fun weekend event! (Andy is co-running this one)",
+    "tags": [
+      "opensource",
+      "unconference",
+      "maker"
+    ]
   },
   {
     "name": "Maker Central",
