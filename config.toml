@@ -55,7 +55,6 @@ disableKinds = ["taxonomy", "term"]
   # Open Graph settings for social sharing
   [params.opengraph]
     title = "HackWimbledon"
-    description = "A pop-up hackspace in Wimbledon: make, create, illuminate, and learn"
     images = ["/img/hw-2026-logo-new-512.png"]
     locale = "en_GB"
 

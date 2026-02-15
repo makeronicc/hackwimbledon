@@ -1,6 +1,5 @@
 ---
 title: HackWimbledon
-description: "Pop-up hackspace in Wimbledon - making, creating, learning together"
 ---
 
 Welcome!

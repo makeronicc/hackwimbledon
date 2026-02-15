@@ -1,6 +1,5 @@
 ---
 title: Events
-description: Community events, maker faires, and tech gatherings we think are worth checking out
 layout: events
 ---
 
