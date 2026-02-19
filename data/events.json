@@ -43,7 +43,7 @@
     "url": "https://oggcamp.org",
     "description": "Open source and maker unconference. Really fun weekend event! (Andy is co-running this one)",
     "tags": [
-      "opensource",
+      "open-source",
       "unconference",
       "maker"
     ]
@@ -71,5 +71,16 @@
     "url": "https://emfcamp.org",
     "description": "A big hacker camp - there are rumours of a HackWimbledon presence...",
     "tags": ["camping", "hacker", "outdoor"]
+  },
+  {
+    "name": "Open Source Hardware Camp (OSHCamp)",
+    "date": "2026-08-29 to 30",
+    "location": "Hebden Bridge",
+    "url": "https://oshug.org/",
+    "description": "(not listed on the OSHUG website yet) A weekend event for open source hardware enthusiasts",
+    "tags": [
+      "hacker",
+      "hardware"
+    ]
   }
 ]
