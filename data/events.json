@@ -37,6 +37,19 @@
     "tags": ["robotics", "racing", "outdoor"]
   },
   {
+    "name": "Wirral MakeFest 2026",
+    "date": "2026-04-25",
+    "location": "Birkenhead, Wirral",
+    "url": "https://wirralmakefest.org/",
+    "description": "A showcase of imagination and skill, featuring hands-on activities, robotics, traditional crafts, and repair demonstrations",
+    "tags": [
+      "maker",
+      "hands-on",
+      "STEAM",
+      "community"
+    ]
+  },
+  {
     "name": "OggCamp",
     "date": "2026-04-25 to 26",
     "location": "Manchester",
@@ -57,12 +70,36 @@
     "tags": ["maker", "exhibition"]
   },
   {
+    "name": "Open Hardware Summit 2026",
+    "date": "2026-05-23 to 24",
+    "location": "Berlin, Germany",
+    "url": "https://2026.oshwa.org/",
+    "description": "Conference for the open hardware community, attracting international attendees. Berlin is not *too* far away...",
+    "tags": [
+      "open-hardware",
+      "conference",
+      "international"
+    ]
+  },
+  {
     "name": "Retrofest",
     "date": "2026-05-30 to 31",
     "location": "Swindon",
     "url": "https://www.retrofest.uk/",
     "description": "Retro computing and gaming festival",
     "tags": ["retro", "computing", "gaming"]
+  },
+  {
+    "name": "Hardware Pioneers Max",
+    "date": "2026-06-10 to 11",
+    "location": "Excel London",
+    "url": "https://www.hardwarepioneers.com/",
+    "description": "Big commercial exhibition for electronics, IoT connectivity, and embedded systems.",
+    "tags": [
+      "electronics",
+      "embedded-systems",
+      "london"
+    ]
   },
   {
     "name": "Electromagnetic Field (EMF)",
