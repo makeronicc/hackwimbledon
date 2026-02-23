@@ -29,6 +29,14 @@
     "tags": ["robotics", "combat", "bristol"]
   },
   {
+    "name": "SMRRF",
+    "date": "2026-03-07 to 08",
+    "location": "Manchester",
+    "url": "https://www.eventbrite.co.uk/e/smrrf-2026-the-uks-largest-3d-printing-festival-tickets-1371179407519",
+    "description": "Sanjay Mortimer RepRap Festival - UK's largest 3D printing event",
+    "tags": ["3d-printing", "maker", "manchester"]
+  },
+  {
     "name": "Hacky Racers Robotic Racing Series",
     "date": "2026-04-18 to 19",
     "location": "near Sudbury",
