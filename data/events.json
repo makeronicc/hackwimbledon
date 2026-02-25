@@ -78,6 +78,19 @@
     "tags": ["maker", "exhibition"]
   },
   {
+    "name": "Hackaday Europe",
+    "date": "2026-05-16 to 17",
+    "location": "Lecco, Italy",
+    "url": "https://hackaday.com/2026/02/18/2026-hackaday-europe-call-for-participation-we-want-you/",
+    "description": "Hackaday Europe conference and hardware showcase",
+    "tags": [
+      "hackaday",
+      "hardware",
+      "conference",
+      "international"
+    ]
+  },
+  {
     "name": "Open Hardware Summit 2026",
     "date": "2026-05-23 to 24",
     "location": "Berlin, Germany",
