@@ -37,6 +37,14 @@
     "tags": ["3d-printing", "maker", "manchester"]
   },
   {
+    "name": "State of the Open Home",
+    "date": "2026-04-08",
+    "location": "Utrecht, Netherlands",
+    "url": "https://sotoh.openhomefoundation.org/",
+    "description": "Home Assistant / Open Home Foundation community celebration",
+    "tags": ["home-assistant", "automation", "netherlands" ]
+  },
+  {
     "name": "Hacky Racers Robotic Racing Series",
     "date": "2026-04-18 to 19",
     "location": "near Sudbury",
