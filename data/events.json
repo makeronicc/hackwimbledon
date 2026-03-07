@@ -37,6 +37,14 @@
     "tags": ["3d-printing", "maker", "manchester"]
   },
   {
+    "name": "Embedded World",
+    "date": "2026-03-10 to 12",
+    "location": "Nuremberg, Germany",
+    "url": "https://www.embedded-world.de/en",
+    "description": "The largest embedded and electronics conference",
+    "tags": ["electronics", "maker", "germany"]
+  },
+  {
     "name": "State of the Open Home",
     "date": "2026-04-08",
     "location": "Utrecht, Netherlands",
