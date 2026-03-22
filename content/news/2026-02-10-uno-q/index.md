@@ -20,7 +20,10 @@ We did a double-take at the fact that the packaging is identical to the original
 
 Quick photo opp for an original UNO R3 (with the socketed Atmel chip) alongside the UNO Q...
 
-![Top](images/IMG_8361-EDIT.jpg) ![Back](images/IMG_8362-EDIT.jpg)
+{{< gallery >}}
+![Top](images/IMG_8361-EDIT.jpg)
+![Back](images/IMG_8362-EDIT.jpg)
+{{< /gallery >}}
 
 The pins being directly labelled is a nice touch, and that also makes more room for components on the board itself since the silkscreen doesn't include those markings. The connectors on the back of the board are curious - we will have to learn more about those in future.
 
