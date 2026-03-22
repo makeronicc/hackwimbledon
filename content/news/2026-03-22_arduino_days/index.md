@@ -11,7 +11,7 @@ images:
 
 ---
 
-On Sunday 29th March, we have [our Arduino Days event](https://luma.com/ao2b7ovs). Technically it is just after the [official Arduino Days](https://days.arduino.cc/about) which are on March 26-27, but we already had our meetup scheduled for the 29th, so we thought we'd go with it.
+On Sunday 29th March, we have [our Arduino Days event](https://luma.com/ao2b7ovs). Technically it is just after the [official Arduino Days](https://days.arduino.cc/about) which are on March 27-28, but we already had our meetup scheduled for the 29th, so we thought we'd go with it.
 
 ![Arduino Days event listing](images/hackw-arduino-days-listing.png)
 
