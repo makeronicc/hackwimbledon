@@ -1,1 +1,18 @@
 .dosis { font-family: dosis; }
+
+.gallery-grid {
+  gap: 8px;
+}
+
+.gallery-grid p {
+  margin: 0;
+  display: flex;
+}
+
+.gallery-grid p img,
+.gallery-grid img {
+  max-height: 220px !important;
+  max-width: none !important;
+  width: auto !important;
+  object-fit: cover;
+}

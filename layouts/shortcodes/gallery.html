@@ -1,0 +1,8 @@
+{{ $html := .Inner | markdownify }}
+<div class="flex flex-wrap justify-center gallery-grid mv3">
+  {{ range (findRESubmatch `<img src="([^"]+)" alt="([^"]*)"` $html) }}
+  <a href="{{ index . 1 }}" class="glightbox" data-gallery="gallery-{{ $.Ordinal }}" data-description="{{ index . 2 }}">
+    <img src="{{ index . 1 }}" alt="{{ index . 2 }}">
+  </a>
+  {{ end }}
+</div>
