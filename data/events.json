@@ -45,6 +45,17 @@
     "tags": ["electronics", "maker", "germany"]
   },
   {
+    "name": "Arduino Days",
+    "date": "2026-03-27 to 28",
+    "location": "online and around the world",
+    "url": "https://days.arduino.cc/about",
+    "description": "A worldwide celebration of Arduino’s birthday,",
+    "tags": [
+      "arduino",
+      "online"
+    ]
+  },
+  {
     "name": "State of the Open Home",
     "date": "2026-04-08",
     "location": "Utrecht, Netherlands",
