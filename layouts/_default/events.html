@@ -5,7 +5,7 @@
   </section>
 
   <div class="events-list mt4 ph3 ph5-l center measure-wide">
-    {{ $events := .Site.Data.events }}
+    {{ $events := hugo.Data.events }}
     {{ $now := now }}
     {{ $upcoming := slice }}
     {{ $past := slice }}
