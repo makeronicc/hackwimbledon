@@ -27,7 +27,7 @@ We had a display of current Arduino products including the [UNO Q](https://hackw
 
 Andy gave a talk that covered a little bit of the history of Arduino (celebrating 21 years) and their earliest experiences with the platform, as well as some of their older projects like [Flogr](https://github.com/andypiper/fsc_flogr), a GPS-enabled field data recorder from all the way back in 2012.
 
-You can grab the slides from the talk [here](https://hackwimbledon.org/files/ArduinoDays26.pdf).
+You can grab the slides from the talk [here](./ArduinoDays26.pdf).
 
 There was a good discussion about the current state of the Arduino ecosystem, and the [announcements from the main Arduino Days events](https://blog.arduino.cc/2026/03/27/we-just-announced-seven-new-products-ready-to-expand-your-arduino-uno-q-board/).
 
