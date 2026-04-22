@@ -150,6 +150,14 @@
     ]
   },
   {
+    "name": "RCM Awesome World Famous Legendary Gathering",
+    "date": "2026-06-20",
+    "location": "Leicester",
+    "url": "https://retrocomputermuseum.co.uk/events/legendary-gathering-20-06-26/?occurrence=2026-06-20",
+    "description": "Retro Computer Museum's gathering of retro computing enthusiasts",
+    "tags": ["retro", "computing"]
+  },
+  {
     "name": "Electromagnetic Field (EMF)",
     "date": "2026-07-16 to 19",
     "location": "Eastnor",
@@ -167,5 +175,13 @@
       "hacker",
       "hardware"
     ]
+  },
+  {
+    "name": "Vintage Computer Festival (VCF) GB",
+    "date": "2026-09-11 to 13",
+    "location": "Aintree Racecourse, Liverpool",
+    "url": "https://www.facebook.com/vcfgb/",
+    "description": "Retro computing festival",
+    "tags": ["retro", "computing", "vintage"]
   }
 ]
