@@ -1,5 +1,6 @@
 ---
 title: GNU Dj Walker-Morgan
+layout: simple-page
 ---
 
 ## Keeping the legacy alive

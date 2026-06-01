@@ -4,7 +4,7 @@ aliases:
   - /meetups/
 ---
 
-# Meetups
+# Our Meetups
 
 Want to come along to a meetup? As a "rule of thumb" we try to meet up on a couple of Sundays each month, but this is flexible depending on the availability of Wimbletech's event space.
 
