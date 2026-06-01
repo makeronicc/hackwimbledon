@@ -39,4 +39,4 @@ If you're looking for a nerdy day out, the UK has some fantastic museums dedicat
 
 ***
 
-For even more ideas, check out **[Nerdy Day Trips](https://www.nerdydaytrips.com/)**, a crowd-sourced map of geeky locations across the UK and beyond.
+For even more ideas, check out **[Nerdy Day Trips](https://www.nerdydaytrips.org/)**, a crowd-sourced map of geeky locations across the UK and beyond.
