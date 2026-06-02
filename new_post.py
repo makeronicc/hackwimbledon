@@ -12,6 +12,7 @@ Creates a new Page Bundle with YAML front matter and opens the editor.
 """
 
 import datetime
+import re
 from pathlib import Path
 import click
 from rich.console import Console
@@ -39,11 +40,15 @@ def create_post(title: str):
     Create a new Hugo post bundle in content/news/ and open the editor.
     """
     # Create slug from title
-    slug = title.lower().replace(" ", "-")
+    slug = re.sub(
+        r"-+", "-", re.sub(r"[^\w\s-]", "", title.lower()).replace(" ", "-")
+    ).strip("-")
     post_dir = Path(f"content/news/{slug}")
 
     if post_dir.exists():
-        console.print(f"[bold red]Error:[/bold red] Directory {post_dir} already exists!")
+        console.print(
+            f"[bold red]Error:[/bold red] Directory {post_dir} already exists!"
+        )
         return
 
     # Create the bundle structure

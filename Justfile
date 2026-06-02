@@ -1,20 +1,16 @@
 # HackWimbledon Site Build Tasks
 
-# Variables
-hugo := if path_exists("/usr/local/bin/hugo") == "true" { "hugo" } else { "~/bin/hugo-0.153" }
-
 # Default recipe (list available commands)
 default:
     @just --list
 
 # Build the site with minification and garbage collection
 build:
-    HUGO_ENV=production {{hugo}} --gc --minify
-    find public -name "*.html" -exec sed -i 's/<meta name=twitter:[^>]*>//g' {} \;
+    HUGO_ENV=production hugo --gc --minify
 
-# Serve the site locally for development (with correct baseURL)
+# Serve the site locally for development
 serve:
-    {{hugo}} server --baseURL http://localhost:1313/
+    hugo server
 
 # Clean the public directory
 clean:
@@ -26,20 +22,22 @@ rebuild: clean build
 # Pull latest changes from git and rebuild
 update:
     git pull
+    hugo mod vendor
     just rebuild
 
 # Check Hugo version
 version:
-    {{hugo}} version
+    hugo version
 
-# Validate config and check for errors
+# Validate config and template setup
 check:
-    HUGO_ENV=production {{hugo}} --gc --minify --verbose
+    hugo config
+    hugo mod verify
 
 # Quick build and restart nginx (for container deployment)
 deploy: build
     sudo systemctl restart nginx
 
-# Watch for changes and rebuild automatically
+# Watch for changes and rebuild automatically (without server)
 watch:
-    {{hugo}} --gc --minify --watch
+    hugo --watch
