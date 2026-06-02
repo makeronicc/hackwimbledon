@@ -1,5 +1,5 @@
 baseURL = 'https://hackwimbledon.org/'
-languageCode = 'en-GB'
+locale = 'en-GB'
 metaDataFormat = "yaml"
 title = 'HackWimbledon'
 description = "A pop-up hackspace in Wimbledon: make, create, illuminate, and learn"
@@ -12,7 +12,7 @@ disableKinds = ["taxonomy", "term"]
 
 [module]
   [[module.imports]]
-    path = 'github.com/theNewDynamic/gohugo-theme-ananke/v2'
+    path = 'github.com/gohugo-ananke/ananke/v2'
 
 [sitemap]
   changefreq = "weekly"
@@ -48,7 +48,6 @@ disableKinds = ["taxonomy", "term"]
   post_content_classes = "dosis"
   recent_posts_number = 3
   mainSections = ["news"]
-  custom_css = ["css/custom.css"]
   description = "A pop-up hackspace in Wimbledon: make, create, illuminate, and learn"
   images = ["/img/hw-2026-logo-new-512.png"]
 
@@ -85,6 +84,9 @@ disableKinds = ["taxonomy", "term"]
   url = "/events/"
   weight = 5
 
+
+[params.ananke]
+  custom_css = ["css/custom.css"]
 
 [params.ananke.social.follow]
 new_window_icon = false
