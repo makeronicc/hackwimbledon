@@ -1,6 +1,6 @@
 ---
 title: "Recent events, and EMF prep"
-date: 2026-06-05T14:29:26
+date: 2026-06-05T13:29:26
 featured_image: "images/IMG_9311.JPG"
 draft: false
 author: andy
