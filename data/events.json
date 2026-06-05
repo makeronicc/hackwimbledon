@@ -153,7 +153,7 @@
     "name": "RCM Awesome World Famous Legendary Gathering",
     "date": "2026-06-20",
     "location": "Leicester",
-    "url": "https://retrocomputermuseum.co.uk/events/legendary-gathering-20-06-26/?occurrence=2026-06-20",
+    "url": "https://retrocomputermuseum.co.uk/events/legendary-gathering-20-06-26/",
     "description": "Retro Computer Museum's gathering of retro computing enthusiasts",
     "tags": ["retro", "computing"]
   },
@@ -180,7 +180,7 @@
     "name": "Vintage Computer Festival (VCF) GB",
     "date": "2026-09-11 to 13",
     "location": "Aintree Racecourse, Liverpool",
-    "url": "https://www.facebook.com/vcfgb/",
+    "url": "https://www.vintagecomputerfestival.org.uk/",
     "description": "Retro computing festival",
     "tags": ["retro", "computing", "vintage"]
   }
