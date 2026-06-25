@@ -183,5 +183,13 @@
     "url": "https://www.vintagecomputerfestival.org.uk/",
     "description": "Retro computing festival",
     "tags": ["retro", "computing", "vintage"]
+  },
+  {
+    "name": "RC2014 Assembly 2.0",
+    "date": "2026-09-26",
+    "location": "The National Museum of Computing, Bletchley",
+    "url": "https://www.eventbrite.co.uk/e/rc2014-assembly-20-tickets-1992559683652",
+    "description": "An opportunity to explore the implementations and diverse applications of the RC2014",
+    "tags": ["z80", "computing", "rc2014"]
   }
 ]
