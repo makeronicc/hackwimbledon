@@ -166,6 +166,20 @@
     "tags": ["camping", "hacker", "outdoor"]
   },
   {
+    "name": "ARC Annual Showcase Event 2026",
+    "date": "2026-08-05 to 11",
+    "location": "Town House, Kingston University",
+    "url": "https://arcatku.org/event/arc-annual-showcase-event-2026",
+    "description": "Free public exhibition of classic home computers, consoles and gaming history - from Fairchild Channel F to PlayStation and beyond",
+    "tags": [
+      "retro",
+      "computing",
+      "gaming",
+      "exhibition",
+      "kingston"
+    ]
+  },
+  {
     "name": "Open Source Hardware Camp (OSHCamp)",
     "date": "2026-08-29 to 30",
     "location": "Hebden Bridge",
@@ -183,6 +197,20 @@
     "url": "https://www.vintagecomputerfestival.org.uk/",
     "description": "Retro computing festival",
     "tags": ["retro", "computing", "vintage"]
+  },
+  {
+    "name": "Liverpool MakeFest",
+    "date": "2026-09-13",
+    "location": "The Tapestry, Liverpool",
+    "url": "https://liverpoolmakefest.org/2026/07/were-back-sun-13th-sept-2026/",
+    "description": "Full day celebration of making - from arts and crafts to technology and science. Family friendly with hands-on activities, exhibits and workshops",
+    "tags": [
+      "maker",
+      "hands-on",
+      "liverpool",
+      "family-friendly",
+      "community"
+    ]
   },
   {
     "name": "RC2014 Assembly 2.0",
