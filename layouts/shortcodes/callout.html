@@ -1,3 +1,10 @@
-<div class="ba br2 b--black-10 bg-white pa3 mb3 lh-copy">
+{{ $type := .Get "type" | default "default" }}
+{{ $classes := dict
+  "default" "ba br2 b--black-10 bg-white pa3 mb3 lh-copy"
+  "note" "ba br2 b--gold bg-washed-yellow pa3 mb3 lh-copy"
+  "warning" "ba br2 b--dark-red bg-washed-red pa3 mb3 lh-copy"
+  "info" "ba br2 b--blue bg-washed-blue pa3 mb3 lh-copy"
+}}
+<div class="{{ index $classes $type | default (index $classes "default") }}">
   {{ .Inner | markdownify }}
 </div>
