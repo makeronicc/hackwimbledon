@@ -1,0 +1,32 @@
+{{- $pctx := . -}}
+{{- printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>{{ .Site.Title }} :: Events</title>
+    <link>{{ .Permalink }}</link>
+    <description>Interesting upcoming events for the HackWimbledon community</description>
+    <generator>Hugo</generator>
+    <language>{{ .Site.Language.Locale }}</language>
+    <atom:link href="{{ (.OutputFormats.Get "RSS").Permalink }}" rel="self" type="application/rss+xml" />
+    {{- range (sort (hugo.Data.events) "date" "desc") }}
+    {{- $eventDate := .date }}
+    {{- $eventEnd := .date }}
+    {{- if (strings.Contains $eventDate " to ") }}
+      {{- $eventDate = index (split $eventDate " to ") 0 }}
+      {{- $eventEnd = index (split .date " to ") 1 }}
+      {{- if lt (len $eventEnd) 4 }}
+        {{- $eventEnd = printf "%s-%s" (substr $eventDate 0 7) $eventEnd }}
+      {{- end }}
+    {{- end }}
+    {{- if ge (time.AsTime $eventEnd) (now.Truncate 86400000000000) }}
+    <item>
+      <title>{{ .name }}</title>
+      <link>{{ .url | default $pctx.Permalink }}</link>
+      <pubDate>{{ (time.AsTime $eventDate).Format "Mon, 02 Jan 2006 15:04:05 -0700" }}</pubDate>
+      <guid isPermaLink="false">{{ .name }}-{{ $eventDate }}</guid>
+      <description>{{ with .description }}{{ . }}{{ end }} ({{ .location }})</description>
+    </item>
+    {{- end }}
+    {{- end }}
+  </channel>
+</rss>

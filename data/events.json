@@ -221,6 +221,14 @@
     ]
   },
   {
+    "name": "I Miss the Internet",
+    "date": "2026-09-17",
+    "location": "The Photographers' Gallery, London",
+    "url": "https://thephotographersgallery.org.uk/whats-on/i-miss-the-internet",
+    "description": "Day-long programme of workshops, talks, and performances on internet nostalgia, platform power, and digital infrastructure",
+    "tags": ["internet", "culture", "london"]
+  },
+  {
     "name": "RC2014 Assembly 2.0",
     "date": "2026-09-26",
     "location": "The National Museum of Computing, Bletchley",

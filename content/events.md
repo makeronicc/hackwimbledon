@@ -1,6 +1,7 @@
 ---
 title: Events
 layout: events
+outputs: ["html", "rss"]
 ---
 
 # Events We're Interested In
