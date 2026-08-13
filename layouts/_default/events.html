@@ -32,7 +32,7 @@
 
     {{/* Display upcoming events */}}
     {{ if $upcoming }}
-      <h2 class="f3 mb3 tl">Upcoming Events</h2>
+      <h2 class="f3 mb3 tc">Upcoming Events{{ with .OutputFormats.Get "RSS" }} <a href="{{ .Permalink }}" class="rss-link" title="RSS feed" aria-label="RSS feed"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><circle cx="5" cy="19" r="2.5"/><path d="M4 10v3.5A6.5 6.5 0 0 1 10.5 20H14A10 10 0 0 0 4 10Z"/><path d="M4 3v3.5A13.5 13.5 0 0 1 17.5 20H21A17 17 0 0 0 4 3Z"/></svg></a>{{ end }}</h2>
       {{ range $upcoming }}
       <div class="event-card ba b--black-10 br3 pa3 mb3 tl bg-white">
         <h3 class="f3 mb2">
@@ -67,7 +67,7 @@
 
     {{/* Display past events if any */}}
     {{ if $past }}
-      <h2 class="f3 mb3 mt4 tl gray">Past Events</h2>
+      <h2 class="f3 mb3 mt4 tc gray">Past Events</h2>
       {{ range $past }}
       <div class="event-card ba b--black-10 br3 pa3 mb3 tl bg-near-white o-60">
         <h3 class="f3 mb2 gray">
