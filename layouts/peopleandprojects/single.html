@@ -1,7 +1,7 @@
 {{ define "main" }}
 {{ $isPerson := eq .Params.category "person" }}
 <article class="{{ if $isPerson }}h-card{{ else }}h-entry{{ end }} pa1 pa1-ns nested-copy-line-height">
-  <a href="{{ .Permalink }}" class="u-url" style="display:none">{{ .Title }}</a>
+  <a href="{{ .Permalink }}" class="u-url u-uid" style="display:none">{{ .Title }}</a>
   <section class="cf ph3 ph5-l pv3 pv5-l f4 center measure-wide lh-copy nested-links mid-gray">
     <h1 class="f2 fw2 mid-gray mb4 p-name">{{ .Title }}</h1>
     {{ .Content }}

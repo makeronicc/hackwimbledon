@@ -20,7 +20,7 @@
       <h2 class="f3 fw4 pa3 mv0">Projects</h2>
       <p class="ph3 f4 mid-gray">Current and past projects we're working on together or individually.</p>
     </div>
-    <aside class="flex-ns mt1 flex-wrap justify-around">
+    <aside class="flex-ns mt1 flex-wrap justify-around h-feed">
       {{ range where .Pages "Params.category" "project" }}
         <div class="w-100 w-30-l mb1 relative bg-white">
           {{ .Render "summary" }}

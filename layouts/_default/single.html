@@ -16,7 +16,7 @@
   {{- end -}}
 
   <article class="h-entry {{ $post_class }} flex-l {{ if $needs_aside }}mw8{{ else }}mw7{{ end }} center ph3 flex-wrap justify-between">
-    <a href="{{ .Permalink }}" class="u-url" style="display:none">{{ .Title }}</a>
+    <a href="{{ .Permalink }}" class="u-url u-uid" style="display:none">{{ .Title }}</a>
     <header class="mt4 w-100">
       {{- partials.Include "hook.html" ( dict "hook" "article/section-link"  "context" . ) -}}
       {{- partials.IncludeCached "social/share.html" . . -}}
