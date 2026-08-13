@@ -28,6 +28,7 @@
         {{- if compare.Eq $page.Language "de" "en" "es" "fr" "it" "no" "pt" -}}
           {{- lang.Translate "by" -}}
         {{ end -}} <strong class="p-author h-card">
+        <img class="u-photo" src="{{ $.Site.Params.site_logo | absURL }}" alt="" style="display:none">
         {{- if reflect.IsSlice . -}}
             {{ collections.Delimit . ", " | transform.Markdownify }}
         {{- else -}}
