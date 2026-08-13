@@ -11,7 +11,7 @@ We try to hold a [HackWimbledon meetup](/meetups) every couple of weeks; we had 
 
 So... if you have never been along to HackWimbledon before, what should you know in advance? Well, we've put a few things to know on our [About page](/about/#how-it-works), but here are a few more notes about what to expect.
 
-HackWimbledon is a "pop-up hackspace" - we have a regular home at [Wimbletech](https://wimbletech.com), but we don't have a permanent workshop spacnge with a fixed set of equipment. Sometimes, we may have a spare Raspberry Pi or loaner laptop, but generally speaking, folks should bring their own kit and project to work on.
+HackWimbledon is a "pop-up hackspace" - we have a regular home at [Wimbletech](https://wimbletech.com), but we don't have a permanent workshop space with a fixed set of equipment. Sometimes, we may have a spare Raspberry Pi or loaner laptop, but generally speaking, folks should bring their own kit and project to work on.
 
 {{< callout type="info" >}}
 You're really going to want to bring _something_ (a laptop, physical project, electronics kit etc) with you - it will be a lot less interesting otherwise!
