@@ -97,7 +97,8 @@ username = "@hackwimbledon"
 profilelink = "https://mastodon.org.uk/@hackwimbledon"
 
 [params.ananke.social.bluesky]
-username = "hackwimbledon.bsky.social"
+username = "hackwimbledon.org"
+profilelink = "https://mu.social/profile/hackwimbledon.org"
 
 [params.ananke.social.networks.discord]
 profile = "https://discord.gg/%s"
