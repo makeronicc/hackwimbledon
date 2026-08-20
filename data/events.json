@@ -199,6 +199,14 @@
     "tags": ["arts", "technology", "london", "creative-coding"]
   },
   {
+    "name": "Rock & Robots South 2",
+    "date": "2026-09-13",
+    "location": "Queen Elizabeth Hall, Southbank Centre, London",
+    "url": "https://www.ticketsource.com/ticketshop/iframe/event.php?eventhash=e-mvbaml&target=",
+    "description": "Free antweight robot tournament, part of Peckham Digital's Creative Technology showcase",
+    "tags": ["robotics", "london", "free"]
+  },
+  {
     "name": "Vintage Computer Festival (VCF) GB",
     "date": "2026-09-11 to 13",
     "location": "Aintree Racecourse, Liverpool",
