@@ -21,12 +21,12 @@
 (function() {
     var map = L.map('map-{{ $lat }}-{{ $lon }}').setView([{{ $lat }}, {{ $lon }}], {{ $zoom }});
 
-    // Add CartoDB Positron tiles (clean, minimal style)
-    L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+    // Esri World Street Map tiles (no API key required)
+    var streetLayer = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}', {
         maxZoom: 19,
-        attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> © <a href="https://carto.com/attributions">CARTO</a>',
-        subdomains: 'abcd'
+        attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, Esri'
     }).addTo(map);
+    streetLayer.getContainer().style.filter = 'saturate(0.5) brightness(1.05)';
 
     // Custom marker icons
     var wimbletechIcon = L.icon({
