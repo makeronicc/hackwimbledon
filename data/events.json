@@ -18,7 +18,11 @@
     "location": "Makespace Cambridge",
     "url": "https://camjam.me/",
     "description": "Raspberry Pi birthday celebration at Makespace Cambridge, in the heart of the city",
-    "tags": ["raspberry-pi", "maker", "cambridge"]
+    "tags": [
+      "raspberry-pi",
+      "maker",
+      "cambridge"
+    ]
   },
   {
     "name": "BeetleBrawl",
@@ -26,7 +30,11 @@
     "location": "Bristol",
     "url": "https://bristolbotbuilders.com/brawl/",
     "description": "Robot combat event at Bristol Bot Builders",
-    "tags": ["robotics", "combat", "bristol"]
+    "tags": [
+      "robotics",
+      "combat",
+      "bristol"
+    ]
   },
   {
     "name": "SMRRF",
@@ -34,7 +42,11 @@
     "location": "Manchester",
     "url": "https://www.eventbrite.co.uk/e/smrrf-2026-the-uks-largest-3d-printing-festival-tickets-1371179407519",
     "description": "Sanjay Mortimer RepRap Festival - UK's largest 3D printing event",
-    "tags": ["3d-printing", "maker", "manchester"]
+    "tags": [
+      "3d-printing",
+      "maker",
+      "manchester"
+    ]
   },
   {
     "name": "Embedded World",
@@ -42,7 +54,11 @@
     "location": "Nuremberg, Germany",
     "url": "https://www.embedded-world.de/en",
     "description": "The largest embedded and electronics conference",
-    "tags": ["electronics", "maker", "germany"]
+    "tags": [
+      "electronics",
+      "maker",
+      "germany"
+    ]
   },
   {
     "name": "Arduino Days",
@@ -61,7 +77,11 @@
     "location": "Utrecht, Netherlands",
     "url": "https://sotoh.openhomefoundation.org/",
     "description": "Home Assistant / Open Home Foundation community celebration",
-    "tags": ["home-assistant", "automation", "netherlands" ]
+    "tags": [
+      "home-assistant",
+      "automation",
+      "netherlands"
+    ]
   },
   {
     "name": "Hacky Racers Robotic Racing Series",
@@ -69,7 +89,11 @@
     "location": "near Sudbury",
     "url": "https://hackyracers.co.uk/robotic-racing-series/",
     "description": "Robotic racing event - always entertaining!",
-    "tags": ["robotics", "racing", "outdoor"]
+    "tags": [
+      "robotics",
+      "racing",
+      "outdoor"
+    ]
   },
   {
     "name": "Wirral MakeFest 2026",
@@ -102,7 +126,10 @@
     "location": "NEC Birmingham",
     "url": "https://www.makerscentral.co.uk/",
     "description": "Major 2-day weekend maker event at the NEC",
-    "tags": ["maker", "exhibition"]
+    "tags": [
+      "maker",
+      "exhibition"
+    ]
   },
   {
     "name": "Hackaday Europe",
@@ -135,7 +162,11 @@
     "location": "Swindon",
     "url": "https://www.retrofest.uk/",
     "description": "Retro computing and gaming festival",
-    "tags": ["retro", "computing", "gaming"]
+    "tags": [
+      "retro",
+      "computing",
+      "gaming"
+    ]
   },
   {
     "name": "Hardware Pioneers Max",
@@ -155,7 +186,10 @@
     "location": "Leicester",
     "url": "https://retrocomputermuseum.co.uk/events/legendary-gathering-20-06-26/",
     "description": "Retro Computer Museum's gathering of retro computing enthusiasts",
-    "tags": ["retro", "computing"]
+    "tags": [
+      "retro",
+      "computing"
+    ]
   },
   {
     "name": "Electromagnetic Field (EMF)",
@@ -163,7 +197,11 @@
     "location": "Eastnor",
     "url": "https://emfcamp.org",
     "description": "A big hacker camp - there are rumours of a HackWimbledon presence...",
-    "tags": ["camping", "hacker", "outdoor"]
+    "tags": [
+      "camping",
+      "hacker",
+      "outdoor"
+    ]
   },
   {
     "name": "ARC Annual Showcase Event 2026",
@@ -196,7 +234,12 @@
     "location": "Queen Elizabeth Hall, Southbank Centre, London",
     "url": "https://www.southbankcentre.co.uk/whats-on/get-your-hands-dirty-with-creative-tech/",
     "description": "Peckham Digital showcases London's creative computing communities, with performances, drop-in workshops and interactive artworks. Part of Creative Intelligence weekend",
-    "tags": ["arts", "technology", "london", "creative-coding"]
+    "tags": [
+      "arts",
+      "technology",
+      "london",
+      "creative-coding"
+    ]
   },
   {
     "name": "Rock & Robots South 2",
@@ -204,7 +247,11 @@
     "location": "Queen Elizabeth Hall, Southbank Centre, London",
     "url": "https://www.ticketsource.com/ticketshop/iframe/event.php?eventhash=e-mvbaml&target=",
     "description": "Free antweight robot tournament, part of Peckham Digital's Creative Technology showcase",
-    "tags": ["robotics", "london", "free"]
+    "tags": [
+      "robotics",
+      "london",
+      "free"
+    ]
   },
   {
     "name": "Liverpool MakeFest",
@@ -226,7 +273,24 @@
     "location": "The Photographers' Gallery, London",
     "url": "https://thephotographersgallery.org.uk/whats-on/i-miss-the-internet",
     "description": "Day-long programme of workshops, talks, and performances on internet nostalgia, platform power, and digital infrastructure",
-    "tags": ["internet", "culture", "london"]
+    "tags": [
+      "internet",
+      "culture",
+      "london"
+    ]
+  },
+  {
+    "name": "Digital Design Weekend 2026",
+    "date": "2026-09-18 to 20",
+    "location": "V&A South Kensington, London",
+    "url": "https://www.vam.ac.uk/event/xxlgboBxGNl/digital-design-weekend-2026",
+    "description": "Free, drop-in festival of installations, workshops, talks and demos exploring how creative technologies shape our relationship with ecology, community and AI",
+    "tags": [
+      "design",
+      "digital-art",
+      "london",
+      "free"
+    ]
   },
   {
     "name": "RC2014 Assembly 2.0",
@@ -234,6 +298,10 @@
     "location": "The National Museum of Computing, Bletchley",
     "url": "https://www.eventbrite.co.uk/e/rc2014-assembly-20-tickets-1992559683652",
     "description": "An opportunity to explore the implementations and diverse applications of the RC2014",
-    "tags": ["z80", "computing", "rc2014"]
+    "tags": [
+      "z80",
+      "computing",
+      "rc2014"
+    ]
   }
 ]
