@@ -297,7 +297,7 @@
     "date": "2026-09-26",
     "location": "The National Museum of Computing, Bletchley",
     "url": "https://www.eventbrite.co.uk/e/rc2014-assembly-20-tickets-1992559683652",
-    "description": "An opportunity to explore the implementations and diverse applications of the RC2014",
+    "description": "An opportunity to explore the implementations and diverse applications of the RC2014.",
     "tags": [
       "z80",
       "computing",
@@ -309,7 +309,7 @@
     "date": "2026-10-22 to 25",
     "location": "Copeland Gallery, The Hub & Staffordshire Street Studios, Peckham, London",
     "url": "https://peckhamdigital.org/",
-    "description": "Programme of 30+ artworks, workshops, talks and performances exploring creative computing",
+    "description": "Programme of 30+ artworks, workshops, talks and performances exploring creative computing.",
     "tags": [
       "digital-art",
       "creative-computing",
@@ -325,6 +325,18 @@
     "tags": [
       "home-assistant",
       "automation"
+    ]
+  },
+  {
+    "name": "Retro Computer Festival 2026 (Space Edition)",
+    "date": "2026-11-14 to 15",
+    "location": "The Centre for Computing History, Cambridge",
+    "url": "https://www.computinghistory.org.uk/det/77371/retro.",
+    "description": "A space-themed celebration of computing from the 70s, 80s, 90s and more.",
+    "tags": [
+      "reto",
+      "computing",
+      "cambridge"
     ]
   }
 ]
