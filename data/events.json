@@ -303,5 +303,28 @@
       "computing",
       "rc2014"
     ]
+  },
+  {
+    "name": "Peckham Digital: Festival of Creative Computing",
+    "date": "2026-10-22 to 25",
+    "location": "Copeland Gallery, The Hub & Staffordshire Street Studios, Peckham, London",
+    "url": "https://peckhamdigital.org/",
+    "description": "Programme of 30+ artworks, workshops, talks and performances exploring creative computing",
+    "tags": [
+      "digital-art",
+      "creative-computing",
+      "london"
+    ]
+  },
+  {
+    "name": "Open Home Foundation Community Day",
+    "date": "2026-11-07",
+    "location": "Worldwide",
+    "url": "https://luma.com/communityday2026",
+    "description": "Celebration for the Home Assistant, ESPHome, and Music Assistant communities.",
+    "tags": [
+      "home-assistant",
+      "automation"
+    ]
   }
 ]
