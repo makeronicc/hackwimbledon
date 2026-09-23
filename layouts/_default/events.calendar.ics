@@ -1,0 +1,16 @@
+{{- define "partials/icsFoldLine" -}}
+{{- $s := . -}}
+{{- if le (strings.RuneCount $s) 75 -}}
+{{- $s -}}{{ "\r\n" }}
+{{- else -}}
+{{- $head := substr $s 0 75 -}}
+{{- $rest := printf " %s" (substr $s 75) -}}
+{{- $head -}}{{ "\r\n" }}{{ template "partials/icsFoldLine" $rest }}
+{{- end -}}
+{{- end -}}
+{{- $raw := partial "ics-body.txt" . -}}
+{{- range split $raw "\n" -}}
+{{- if ne . "" -}}
+{{- template "partials/icsFoldLine" . -}}
+{{- end -}}
+{{- end -}}

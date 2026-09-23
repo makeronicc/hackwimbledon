@@ -1,0 +1,7 @@
+{{- $start := time.AsTime .start_date -}}
+{{- $end := time.AsTime .end_date -}}
+{{- if eq .start_date .end_date -}}
+  {{ $start.Format "Mon, 02 Jan 2006" }}
+{{- else -}}
+  {{ $start.Format "Mon, 02 Jan 2006" }} &ndash; {{ $end.Format "Mon, 02 Jan 2006" }}
+{{- end -}}

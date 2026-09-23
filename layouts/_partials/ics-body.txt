@@ -1,0 +1,28 @@
+{{- $events := hugo.Data.events -}}
+BEGIN:VCALENDAR
+PRODID:-//HackWimbledon//Events//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:HackWimbledon's Interesting Events
+X-WR-CALDESC:Maker and tech events HackWimbledon members might enjoy - not our own meetups
+{{ range $events -}}
+BEGIN:VEVENT
+UID:{{ urlize .name }}-{{ .start_date }}@hackwimbledon.org
+DTSTAMP:{{ now.UTC.Format "20060102T150405Z" }}
+DTSTART;VALUE=DATE:{{ (time.AsTime .start_date).Format "20060102" }}
+DTEND;VALUE=DATE:{{ ((time.AsTime .end_date).AddDate 0 0 1).Format "20060102" }}
+SUMMARY:{{ partial "ics-escape-text.txt" .name }}
+LOCATION:{{ partial "ics-escape-text.txt" .location }}
+{{- with .description }}
+DESCRIPTION:{{ partial "ics-escape-text.txt" . }}
+{{- end }}
+{{- with .url }}
+URL:{{ . }}
+{{- end }}
+{{- with .tags }}
+CATEGORIES:{{ delimit . "," }}
+{{- end }}
+END:VEVENT
+{{ end -}}
+END:VCALENDAR
