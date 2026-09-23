@@ -1,7 +1,8 @@
 [
   {
     "name": "Meet the Home Assistant team",
-    "date": "2026-02-25",
+    "start_date": "2026-02-25",
+    "end_date": "2026-02-25",
     "location": "London",
     "url": "https://luma.com/rqbermeo",
     "description": "An evening with the Home Assistant team, in London",
@@ -14,7 +15,8 @@
   },
   {
     "name": "Cambridge Raspberry Jam",
-    "date": "2026-02-28",
+    "start_date": "2026-02-28",
+    "end_date": "2026-02-28",
     "location": "Makespace Cambridge",
     "url": "https://camjam.me/",
     "description": "Raspberry Pi birthday celebration at Makespace Cambridge, in the heart of the city",
@@ -26,7 +28,8 @@
   },
   {
     "name": "BeetleBrawl",
-    "date": "2026-02-28",
+    "start_date": "2026-02-28",
+    "end_date": "2026-02-28",
     "location": "Bristol",
     "url": "https://bristolbotbuilders.com/brawl/",
     "description": "Robot combat event at Bristol Bot Builders",
@@ -38,7 +41,8 @@
   },
   {
     "name": "SMRRF",
-    "date": "2026-03-07 to 08",
+    "start_date": "2026-03-07",
+    "end_date": "2026-03-08",
     "location": "Manchester",
     "url": "https://www.eventbrite.co.uk/e/smrrf-2026-the-uks-largest-3d-printing-festival-tickets-1371179407519",
     "description": "Sanjay Mortimer RepRap Festival - UK's largest 3D printing event",
@@ -50,7 +54,8 @@
   },
   {
     "name": "Embedded World",
-    "date": "2026-03-10 to 12",
+    "start_date": "2026-03-10",
+    "end_date": "2026-03-12",
     "location": "Nuremberg, Germany",
     "url": "https://www.embedded-world.de/en",
     "description": "The largest embedded and electronics conference",
@@ -62,7 +67,8 @@
   },
   {
     "name": "Arduino Days",
-    "date": "2026-03-27 to 28",
+    "start_date": "2026-03-27",
+    "end_date": "2026-03-28",
     "location": "online and around the world",
     "url": "https://days.arduino.cc/about",
     "description": "A worldwide celebration of Arduino’s birthday,",
@@ -73,7 +79,8 @@
   },
   {
     "name": "State of the Open Home",
-    "date": "2026-04-08",
+    "start_date": "2026-04-08",
+    "end_date": "2026-04-08",
     "location": "Utrecht, Netherlands",
     "url": "https://sotoh.openhomefoundation.org/",
     "description": "Home Assistant / Open Home Foundation community celebration",
@@ -85,7 +92,8 @@
   },
   {
     "name": "Hacky Racers Robotic Racing Series",
-    "date": "2026-04-18 to 19",
+    "start_date": "2026-04-18",
+    "end_date": "2026-04-19",
     "location": "near Sudbury",
     "url": "https://hackyracers.co.uk/robotic-racing-series/",
     "description": "Robotic racing event - always entertaining!",
@@ -97,7 +105,8 @@
   },
   {
     "name": "Wirral MakeFest 2026",
-    "date": "2026-04-25",
+    "start_date": "2026-04-25",
+    "end_date": "2026-04-25",
     "location": "Birkenhead, Wirral",
     "url": "https://wirralmakefest.org/",
     "description": "A showcase of imagination and skill, featuring hands-on activities, robotics, traditional crafts, and repair demonstrations",
@@ -110,7 +119,8 @@
   },
   {
     "name": "OggCamp",
-    "date": "2026-04-25 to 26",
+    "start_date": "2026-04-25",
+    "end_date": "2026-04-26",
     "location": "Manchester",
     "url": "https://oggcamp.org",
     "description": "Open source and maker unconference. Really fun weekend event! (Andy is co-running this one)",
@@ -122,7 +132,8 @@
   },
   {
     "name": "Maker Central",
-    "date": "2026-05-16 to 17",
+    "start_date": "2026-05-16",
+    "end_date": "2026-05-17",
     "location": "NEC Birmingham",
     "url": "https://www.makerscentral.co.uk/",
     "description": "Major 2-day weekend maker event at the NEC",
@@ -133,7 +144,8 @@
   },
   {
     "name": "Hackaday Europe",
-    "date": "2026-05-16 to 17",
+    "start_date": "2026-05-16",
+    "end_date": "2026-05-17",
     "location": "Lecco, Italy",
     "url": "https://hackaday.com/2026/02/18/2026-hackaday-europe-call-for-participation-we-want-you/",
     "description": "Hackaday Europe conference and hardware showcase",
@@ -146,7 +158,8 @@
   },
   {
     "name": "Open Hardware Summit 2026",
-    "date": "2026-05-23 to 24",
+    "start_date": "2026-05-23",
+    "end_date": "2026-05-24",
     "location": "Berlin, Germany",
     "url": "https://2026.oshwa.org/",
     "description": "Conference for the open hardware community, attracting international attendees. Berlin is not *too* far away...",
@@ -158,7 +171,8 @@
   },
   {
     "name": "Retrofest",
-    "date": "2026-05-30 to 31",
+    "start_date": "2026-05-30",
+    "end_date": "2026-05-31",
     "location": "Swindon",
     "url": "https://www.retrofest.uk/",
     "description": "Retro computing and gaming festival",
@@ -170,7 +184,8 @@
   },
   {
     "name": "Hardware Pioneers Max",
-    "date": "2026-06-10 to 11",
+    "start_date": "2026-06-10",
+    "end_date": "2026-06-11",
     "location": "Excel London",
     "url": "https://www.hardwarepioneers.com/",
     "description": "Big commercial exhibition for electronics, IoT connectivity, and embedded systems.",
@@ -182,7 +197,8 @@
   },
   {
     "name": "RCM Awesome World Famous Legendary Gathering",
-    "date": "2026-06-20",
+    "start_date": "2026-06-20",
+    "end_date": "2026-06-20",
     "location": "Leicester",
     "url": "https://retrocomputermuseum.co.uk/events/legendary-gathering-20-06-26/",
     "description": "Retro Computer Museum's gathering of retro computing enthusiasts",
@@ -193,7 +209,8 @@
   },
   {
     "name": "Electromagnetic Field (EMF)",
-    "date": "2026-07-16 to 19",
+    "start_date": "2026-07-16",
+    "end_date": "2026-07-19",
     "location": "Eastnor",
     "url": "https://emfcamp.org",
     "description": "A big hacker camp - there are rumours of a HackWimbledon presence...",
@@ -205,7 +222,8 @@
   },
   {
     "name": "ARC Annual Showcase Event 2026",
-    "date": "2026-08-05 to 11",
+    "start_date": "2026-08-05",
+    "end_date": "2026-08-11",
     "location": "Town House, Kingston University",
     "url": "https://arcatku.org/event/arc-annual-showcase-event-2026",
     "description": "Free public exhibition of classic home computers, consoles and gaming history - from Fairchild Channel F to PlayStation and beyond",
@@ -219,7 +237,8 @@
   },
   {
     "name": "Open Source Hardware Camp (OSHCamp)",
-    "date": "2026-08-29 to 30",
+    "start_date": "2026-08-29",
+    "end_date": "2026-08-30",
     "location": "Hebden Bridge",
     "url": "https://lists.oshug.org/hyperkitty/list/oshug@oshug.org/thread/EGIO6P7OG2BETP7B3EZCODPNDQDQUBIX/",
     "description": "A weekend event for open source hardware enthusiasts",
@@ -230,7 +249,8 @@
   },
   {
     "name": "Get Your Hands-Dirty with Creative Tech",
-    "date": "2026-09-11 to 13",
+    "start_date": "2026-09-11",
+    "end_date": "2026-09-13",
     "location": "Queen Elizabeth Hall, Southbank Centre, London",
     "url": "https://www.southbankcentre.co.uk/whats-on/get-your-hands-dirty-with-creative-tech/",
     "description": "Peckham Digital showcases London's creative computing communities, with performances, drop-in workshops and interactive artworks. Part of Creative Intelligence weekend",
@@ -243,7 +263,8 @@
   },
   {
     "name": "Rock & Robots South 2",
-    "date": "2026-09-13",
+    "start_date": "2026-09-13",
+    "end_date": "2026-09-13",
     "location": "Queen Elizabeth Hall, Southbank Centre, London",
     "url": "https://www.ticketsource.com/ticketshop/iframe/event.php?eventhash=e-mvbaml&target=",
     "description": "Free antweight robot tournament, part of Peckham Digital's Creative Technology showcase",
@@ -255,7 +276,8 @@
   },
   {
     "name": "Liverpool MakeFest",
-    "date": "2026-09-13",
+    "start_date": "2026-09-13",
+    "end_date": "2026-09-13",
     "location": "The Tapestry, Liverpool",
     "url": "https://liverpoolmakefest.org/2026/07/were-back-sun-13th-sept-2026/",
     "description": "Full day celebration of making - from arts and crafts to technology and science. Family friendly with hands-on activities, exhibits and workshops",
@@ -269,7 +291,8 @@
   },
   {
     "name": "I Miss the Internet",
-    "date": "2026-09-17",
+    "start_date": "2026-09-17",
+    "end_date": "2026-09-17",
     "location": "The Photographers' Gallery, London",
     "url": "https://thephotographersgallery.org.uk/whats-on/i-miss-the-internet",
     "description": "Day-long programme of workshops, talks, and performances on internet nostalgia, platform power, and digital infrastructure",
@@ -281,7 +304,8 @@
   },
   {
     "name": "Digital Design Weekend 2026",
-    "date": "2026-09-18 to 20",
+    "start_date": "2026-09-18",
+    "end_date": "2026-09-20",
     "location": "V&A South Kensington, London",
     "url": "https://www.vam.ac.uk/event/xxlgboBxGNl/digital-design-weekend-2026",
     "description": "Free, drop-in festival of installations, workshops, talks and demos exploring how creative technologies shape our relationship with ecology, community and AI",
@@ -294,7 +318,8 @@
   },
   {
     "name": "RC2014 Assembly 2.0",
-    "date": "2026-09-26",
+    "start_date": "2026-09-26",
+    "end_date": "2026-09-26",
     "location": "The National Museum of Computing, Bletchley",
     "url": "https://www.eventbrite.co.uk/e/rc2014-assembly-20-tickets-1992559683652",
     "description": "An opportunity to explore the implementations and diverse applications of the RC2014.",
@@ -306,7 +331,8 @@
   },
   {
     "name": "Peckham Digital: Festival of Creative Computing",
-    "date": "2026-10-22 to 25",
+    "start_date": "2026-10-22",
+    "end_date": "2026-10-25",
     "location": "Copeland Gallery, The Hub & Staffordshire Street Studios, Peckham, London",
     "url": "https://peckhamdigital.org/",
     "description": "Programme of 30+ artworks, workshops, talks and performances exploring creative computing.",
@@ -318,7 +344,8 @@
   },
   {
     "name": "Open Home Foundation Community Day",
-    "date": "2026-11-07",
+    "start_date": "2026-11-07",
+    "end_date": "2026-11-07",
     "location": "Worldwide",
     "url": "https://luma.com/communityday2026",
     "description": "Celebration for the Home Assistant, ESPHome, and Music Assistant communities.",

@@ -27,6 +27,15 @@ disableKinds = ["taxonomy", "term"]
   mediatype = "application/rss+xml"
   baseName = "feed"
 
+[mediaTypes."text/calendar"]
+  suffixes = ["ics"]
+
+[outputFormats.calendar]
+  mediaType = "text/calendar"
+  baseName = "calendar"
+  isPlainText = true
+  rel = "alternate"
+
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]

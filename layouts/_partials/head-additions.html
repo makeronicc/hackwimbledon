@@ -8,3 +8,7 @@
 <!-- Fediverse attribution -->
 <meta name="fediverse:creator" content="@hackwimbledon@mastodon.org.uk">
 <link rel="me" href="https://mastodon.org.uk/@hackwimbledon">
+
+{{ with .OutputFormats.Get "calendar" }}
+<link href="{{ .RelPermalink }}" rel="alternate" type="text/calendar" title="{{ $.Site.Title }} Events" />
+{{ end }}

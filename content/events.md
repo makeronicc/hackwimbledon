@@ -1,7 +1,7 @@
 ---
 title: Events
 layout: events
-outputs: ["html", "rss"]
+outputs: ["html", "rss", "calendar"]
 ---
 
 # Events We're Interested In

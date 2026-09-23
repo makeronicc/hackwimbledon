@@ -6,24 +6,12 @@
 
   <div class="events-list mt4 ph3 ph5-l center measure-wide">
     {{ $events := hugo.Data.events }}
-    {{ $now := now }}
+    {{ $now := now.Truncate 86400000000000 }}
     {{ $upcoming := slice }}
     {{ $past := slice }}
 
     {{ range $events }}
-      {{ $eventDate := .date }}
-      {{ $parsedDate := "" }}
-
-      {{/* Handle date ranges by extracting first date */}}
-      {{ if (strings.Contains $eventDate " to ") }}
-        {{ $parsedDate = index (split $eventDate " to ") 0 }}
-      {{ else }}
-        {{ $parsedDate = $eventDate }}
-      {{ end }}
-
-      {{/* Parse the date and compare with today */}}
-      {{ $date := time.AsTime $parsedDate }}
-      {{ if ge $date $now }}
+      {{ if ge (time.AsTime .end_date) $now }}
         {{ $upcoming = $upcoming | append . }}
       {{ else }}
         {{ $past = $past | append . }}
@@ -32,7 +20,11 @@
 
     {{/* Display upcoming events */}}
     {{ if $upcoming }}
-      <h2 class="f3 mb3 tc">Upcoming Events{{ with .OutputFormats.Get "RSS" }} <a href="{{ .Permalink }}" class="rss-link" title="RSS feed" aria-label="RSS feed"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><circle cx="5" cy="19" r="2.5"/><path d="M4 10v3.5A6.5 6.5 0 0 1 10.5 20H14A10 10 0 0 0 4 10Z"/><path d="M4 3v3.5A13.5 13.5 0 0 1 17.5 20H21A17 17 0 0 0 4 3Z"/></svg></a>{{ end }}</h2>
+      <h2 class="f3 mb3 tc">
+        Upcoming Events
+        {{ with .OutputFormats.Get "RSS" }} <a href="{{ .Permalink }}" class="rss-link" title="RSS feed" aria-label="RSS feed"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><circle cx="5" cy="19" r="2.5"/><path d="M4 10v3.5A6.5 6.5 0 0 1 10.5 20H14A10 10 0 0 0 4 10Z"/><path d="M4 3v3.5A13.5 13.5 0 0 1 17.5 20H21A17 17 0 0 0 4 3Z"/></svg></a>{{ end }}
+        {{ with .OutputFormats.Get "calendar" }} <a href="{{ .RelPermalink }}" class="ics-link" title="Subscribe (iCalendar)" aria-label="Subscribe to calendar">📅</a>{{ end }}
+      </h2>
       {{ range $upcoming }}
       <div class="event-card ba b--black-10 br3 pa3 mb3 tl bg-white">
         <h3 class="f3 mb2">
@@ -44,7 +36,7 @@
         </h3>
 
         <div class="f5 mb2">
-          <strong>📅 Date:</strong> {{ .date }}<br>
+          <strong>📅 Date:</strong> {{ partial "event-date-range.html" . }}<br>
           <strong>📍 Location:</strong> {{ .location }}
         </div>
 
@@ -79,7 +71,7 @@
         </h3>
 
         <div class="f5 mb2 gray">
-          <strong>📅 Date:</strong> {{ .date }}<br>
+          <strong>📅 Date:</strong> {{ partial "event-date-range.html" . }}<br>
           <strong>📍 Location:</strong> {{ .location }}
         </div>
 
