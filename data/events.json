@@ -411,6 +411,19 @@
     ]
   },
   {
+    "name": "Alpaca Festival 2027",
+    "start_date": "2027-05-06",
+    "end_date": "2027-05-09",
+    "location": "Sheffield",
+    "url": "https://alpaca.cc/",
+    "description": "Festival of Algorithmic Patterns in the Creative Arts, with performances, workshops and talks on algorithmic patterns in art, music and craft.",
+    "tags": [
+      "creative-coding",
+      "music",
+      "sheffield"
+    ]
+  },
+  {
     "name": "Makers Central 2027",
     "start_date": "2027-05-15",
     "end_date": "2027-05-16",
