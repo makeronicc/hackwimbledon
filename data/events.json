@@ -131,7 +131,7 @@
     ]
   },
   {
-    "name": "Maker Central",
+    "name": "Makers Central",
     "start_date": "2026-05-16",
     "end_date": "2026-05-17",
     "location": "NEC Birmingham",
@@ -368,6 +368,74 @@
     ]
   },
   {
+    "name": "BSides London 2026",
+    "start_date": "2026-12-12",
+    "end_date": "2026-12-12",
+    "location": "Novotel London West, London",
+    "url": "https://bsides.london/",
+    "description": "Community-driven information security conference. Free tickets, released in batches on 1 Oct and 1 Nov at 13:37 - they go fast!",
+    "tags": [
+      "security",
+      "hacker",
+      "conference",
+      "london",
+      "free"
+    ]
+  },
+  {
+    "name": "FOSDEM 2027",
+    "start_date": "2027-01-30",
+    "end_date": "2027-01-31",
+    "location": "ULB Solbosch, Brussels, Belgium",
+    "url": "https://fosdem.org/2027/",
+    "description": "Huge free open source developer conference, no registration required. Usually has an Open Hardware devroom.",
+    "tags": [
+      "open-source",
+      "open-hardware",
+      "conference",
+      "international",
+      "free"
+    ]
+  },
+  {
+    "name": "SMRRF 2027",
+    "start_date": "2027-03-06",
+    "end_date": "2027-03-07",
+    "location": "Dalton Building, Manchester Metropolitan University",
+    "url": "https://www.eventbrite.co.uk/e/smrrf-2027-the-uks-largest-3d-printing-festival-tickets-1990555363677",
+    "description": "Sanjay Mortimer RepRap Festival - UK's largest 3D printing and STEM festival, in aid of the Sanjay Mortimer Foundation",
+    "tags": [
+      "3d-printing",
+      "maker",
+      "manchester"
+    ]
+  },
+  {
+    "name": "Makers Central 2027",
+    "start_date": "2027-05-15",
+    "end_date": "2027-05-16",
+    "location": "NEC Birmingham",
+    "url": "https://www.makerscentral.co.uk/",
+    "description": "Major 2-day weekend maker event at the NEC - inventions, robotics, cosplay, workshops and demos",
+    "tags": [
+      "maker",
+      "exhibition"
+    ]
+  },
+  {
+    "name": "RetroTechUK 2027",
+    "start_date": "2027-05-23",
+    "end_date": "2027-05-23",
+    "location": "British Motor Museum, Gaydon, Warwickshire",
+    "url": "https://www.retrotechuk.com/",
+    "description": "Formerly the National Vintage Communications Fair - 150+ stalls of vintage radios, TVs, audio and computing kit",
+    "tags": [
+      "retro",
+      "computing",
+      "electronics"
+    ]
+  },
+  {
     "name": "RetroFest 2027",
     "start_date": "2027-06-05",
     "end_date": "2027-06-06",
@@ -378,6 +446,19 @@
       "retro",
       "computing",
       "swindon"
+    ]
+  },
+  {
+    "name": "Hardware Pioneers Max 2027",
+    "start_date": "2027-06-09",
+    "end_date": "2027-06-10",
+    "location": "Excel London",
+    "url": "https://www.hardwarepioneers.com/",
+    "description": "Big commercial exhibition for electronics, IoT connectivity, and embedded systems.",
+    "tags": [
+      "electronics",
+      "embedded-systems",
+      "london"
     ]
   }
 ]
