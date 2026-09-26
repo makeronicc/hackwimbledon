@@ -366,5 +366,18 @@
       "computing",
       "cambridge"
     ]
+  },
+  {
+    "name": "RetroFest 2027",
+    "start_date": "2027-06-05",
+    "end_date": "2027-06-06",
+    "location": "STEAM Museum, Swindon",
+    "url": "https://www.retrofest.uk/",
+    "description": "Retro computing and technology exhibition with collectors, enthusiasts and user groups showing vintage machines.",
+    "tags": [
+      "retro",
+      "computing",
+      "swindon"
+    ]
   }
 ]
