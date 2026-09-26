@@ -356,7 +356,8 @@
   },
   {
     "name": "Retro Computer Festival 2026 (Space Edition)",
-    "date": "2026-11-14 to 15",
+    "start_date": "2026-11-14",
+    "end_date": "2026-11-15",
     "location": "The Centre for Computing History, Cambridge",
     "url": "https://www.computinghistory.org.uk/det/77371/retro.",
     "description": "A space-themed celebration of computing from the 70s, 80s, 90s and more.",
