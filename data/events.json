@@ -411,6 +411,19 @@
     ]
   },
   {
+    "name": "Open Hackspace Day 2027",
+    "start_date": "2027-03-27",
+    "end_date": "2027-03-27",
+    "location": "Worldwide",
+    "url": "https://wiki.hackerspaces.org/Open_Hackspace_Day_2027",
+    "description": "International day when hackerspaces around the world open their doors to visitors.",
+    "tags": [
+      "hackspace",
+      "maker",
+      "community"
+    ]
+  },
+  {
     "name": "Alpaca Festival 2027",
     "start_date": "2027-05-06",
     "end_date": "2027-05-09",
